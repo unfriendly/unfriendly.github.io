@@ -1,0 +1,8 @@
+Origin: Compute
+Label: Compute/Homebrew
+Suite: stable
+Version: 2.2-Final
+Architectures: iphoneos-arm
+Components: main
+Codename: Computate
+Description: Pentesting and Random Tools

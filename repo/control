@@ -1,0 +1,13 @@
+Package: com.compute.
+Priority: optional
+Name:
+Version:
+Section:
+Architecture: iphoneos-arm
+Depends:
+Pre-Depends: dpkg
+Provides:
+Maintainer: RawTechnique <34170230+compute@RawTechnique.com>
+Homepage:
+Tag:
+Description: Computate | Compiled for ARM64.
