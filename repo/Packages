@@ -1,4 +1,4 @@
-Package: io.compute.a2ps
+Package: io.mc.a2ps
 Version: 4.14-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -13,7 +13,7 @@ Section: Utilities
 Description: Any-to-PostScript filter
 Name: a2ps
 
-Package: io.compute.a52dec
+Package: io.mc.a52dec
 Version: 0.7.4-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -28,7 +28,7 @@ Section: Utilities
 Description: Library for decoding ATSC A/52 streams (AKA 'AC-3')
 Name: a52dec
 
-Package: io.compute.aacgain
+Package: io.mc.aacgain
 Version: 1.8-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -43,13 +43,13 @@ Section: Utilities
 Description: AAC-supporting version of mp3gain
 Name: aacgain
 
-Package: io.compute.aalib
+Package: io.mc.aalib
 Version: 1.4rc5-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 372
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses
+Depends: io.mc.ncurses
 Filename: ./Computate/aalib_1.4rc5-2_iphoneos-arm.deb
 Size: 43154
 MD5sum: 87fd179ed98caff0501f09a7532314d3
@@ -59,13 +59,13 @@ Section: Development
 Description: Portable ASCII art graphics library
 Name: aalib
 
-Package: io.compute.aalib
+Package: io.mc.aalib
 Version: 1.4rc5-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 372
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses
+Depends: io.mc.ncurses
 Filename: ./Computate/aalib_1.4rc5-3_iphoneos-arm.deb
 Size: 43226
 MD5sum: e4e1aca0efd6f144f6f5b263203a7d08
@@ -75,13 +75,13 @@ Section: Development
 Description: Portable ASCII art graphics library
 Name: aalib
 
-Package: io.compute.aamath
+Package: io.mc.aamath
 Version: 0.3-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 196
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses, io.compute.readline
+Depends: io.mc.ncurses, io.mc.readline
 Filename: ./Computate/aamath_0.3-4_iphoneos-arm.deb
 Size: 39526
 MD5sum: f94fd959e8ab752ace52ef3f8e254e18
@@ -91,13 +91,13 @@ Section: Utilities
 Description: Renders mathematical expressions as ASCII art
 Name: aamath
 
-Package: io.compute.aamath
+Package: io.mc.aamath
 Version: 0.3-5
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 200
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses, io.compute.readline
+Depends: io.mc.ncurses, io.mc.readline
 Filename: ./Computate/aamath_0.3-5_iphoneos-arm.deb
 Size: 39966
 MD5sum: 690b0c2d430dbf5b05a291dee8404ab8
@@ -107,13 +107,13 @@ Section: Utilities
 Description: Renders mathematical expressions as ASCII art
 Name: aamath
 
-Package: io.compute.adb
+Package: io.mc.adb
 Version: 10-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1120
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libusb, io.compute.openssl
+Depends: io.mc.libusb, io.mc.openssl
 Filename: ./Computate/adb_10-1_iphoneos-arm.deb
 Size: 220134
 MD5sum: c24ae6fc8e4f6052e34154905f7f9b90
@@ -123,13 +123,13 @@ Section: Utilities
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Name: Android Debug Bridge
 
-Package: io.compute.adb
+Package: io.mc.adb
 Version: 10-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 876
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libusb, io.compute.openssl
+Depends: io.mc.libusb, io.mc.openssl
 Filename: ./Computate/adb_10-2_iphoneos-arm.deb
 Size: 202176
 MD5sum: ed3daa619bb790451044b1f19300f3b4
@@ -139,13 +139,13 @@ Section: Utilities
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Name: Android Debug Bridge
 
-Package: io.compute.adb
+Package: io.mc.adb
 Version: 10-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 876
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libusb, io.compute.openssl
+Depends: io.mc.libusb, io.mc.openssl
 Filename: ./Computate/adb_10-3_iphoneos-arm.deb
 Size: 202028
 MD5sum: c4bda286a39536dd885887c30afe3004
@@ -155,13 +155,13 @@ Section: Utilities
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Name: Android Debug Bridge
 
-Package: io.compute.adb
+Package: io.mc.adb
 Version: 10-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 876
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libusb, io.compute.openssl
+Depends: io.mc.libusb, io.mc.openssl
 Filename: ./Computate/adb_10-4_iphoneos-arm.deb
 Size: 202222
 MD5sum: f447e9f8f54b1800c217c8c4ad61e180
@@ -171,13 +171,13 @@ Section: Utilities
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Name: Android Debug Bridge
 
-Package: io.compute.aircrack-ng
+Package: io.mc.aircrack-ng
 Version: 1.5.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1652
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl, io.compute.pcre, io.compute.sqlite
+Depends: io.mc.openssl, io.mc.pcre, io.mc.sqlite
 Filename: ./Computate/aircrack-ng_1.5.2-1_iphoneos-arm.deb
 Size: 242718
 MD5sum: 52d270783d11421d34e66a7f9e8fea31
@@ -187,13 +187,13 @@ Section: Utilities
 Description: Next-generation aircrack with lots of new features
 Name: aircrack-ng
 
-Package: io.compute.aria2
+Package: io.mc.aria2
 Version: 1.34.0-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3248
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libssh2, io.compute.libxml2, io.compute.openssl
+Depends: io.mc.libssh2, io.mc.libxml2, io.mc.openssl
 Filename: ./Computate/aria2_1.34.0-2_iphoneos-arm.deb
 Size: 787844
 MD5sum: bfcf0da25fc3d00b132d4506f8f7dbb4
@@ -203,13 +203,13 @@ Section: Utilities
 Description: Download with resuming and segmented downloading
 Name: aria2
 
-Package: io.compute.aria2
+Package: io.mc.aria2
 Version: 1.34.0-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3340
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libssh2, io.compute.libxml2, io.compute.openssl
+Depends: io.mc.libssh2, io.mc.libxml2, io.mc.openssl
 Filename: ./Computate/aria2_1.34.0-3_iphoneos-arm.deb
 Size: 800210
 MD5sum: d0d4f3f25378f5725e1ecc3c552c61e8
@@ -219,13 +219,13 @@ Section: Utilities
 Description: Download with resuming and segmented downloading
 Name: aria2
 
-Package: io.compute.aria2
+Package: io.mc.aria2
 Version: 1.34.0-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3340
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libssh2, io.compute.libxml2, io.compute.openssl
+Depends: io.mc.libssh2, io.mc.libxml2, io.mc.openssl
 Filename: ./Computate/aria2_1.34.0-4_iphoneos-arm.deb
 Size: 799906
 MD5sum: 0aefdafdecd730c82159ae86c6bbf473
@@ -235,13 +235,13 @@ Section: Utilities
 Description: Download with resuming and segmented downloading
 Name: aria2
 
-Package: io.compute.arp-scan
+Package: io.mc.arp-scan
 Version: 1.9.5-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 908
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpcap
+Depends: io.mc.libpcap
 Filename: ./Computate/arp-scan_1.9.5-2_iphoneos-arm.deb
 Size: 277466
 MD5sum: 3e544d7f0a05457533a6618f282b2367
@@ -251,13 +251,13 @@ Section: Utilities
 Description: ARP scanning and fingerprinting tool
 Name: arp-scan
 
-Package: io.compute.arpoison
+Package: io.mc.arpoison
 Version: 0.7-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 56
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libnet
+Depends: io.mc.libnet
 Filename: ./Computate/arpoison_0.7-1_iphoneos-arm.deb
 Size: 3494
 MD5sum: 16dda214f2ab9257bf61420e895cf3f1
@@ -267,7 +267,7 @@ Section: Utilities
 Description: UNIX arp cache update utility
 Name: arpoison
 
-Package: io.compute.aspell
+Package: io.mc.aspell
 Version: 0.60.7-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -282,13 +282,13 @@ Section: Utilities
 Description: Spell checker with better logic than ispell
 Name: aspell
 
-Package: io.compute.axel
+Package: io.mc.axel
 Version: 2.17.3-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 112
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gettext, io.compute.openssl
+Depends: io.mc.gettext, io.mc.openssl
 Filename: ./Computate/axel_2.17.3-2_iphoneos-arm.deb
 Size: 26332
 MD5sum: 699e34e8c74e73de2a7ffd3544d87a55
@@ -298,13 +298,13 @@ Section: Utilities
 Description: Light UNIX download accelerator
 Name: axel
 
-Package: io.compute.axel
+Package: io.mc.axel
 Version: 2.17.3-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 112
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gettext, io.compute.openssl
+Depends: io.mc.gettext, io.mc.openssl
 Filename: ./Computate/axel_2.17.3-3_iphoneos-arm.deb
 Size: 26296
 MD5sum: 8d09ce829da066921b6df4a1158738a9
@@ -314,13 +314,13 @@ Section: Utilities
 Description: Light UNIX download accelerator
 Name: axel
 
-Package: io.compute.bc
+Package: io.mc.bc
 Version: 1.07.1-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 224
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/bc_1.07.1-2_iphoneos-arm.deb
 Size: 50950
 MD5sum: 42aee7f6fe08c1498fa6a7df1c2fe224
@@ -330,13 +330,13 @@ Section: Utilities
 Description: Arbitrary precision numeric processing language
 Name: bc
 
-Package: io.compute.bc
+Package: io.mc.bc
 Version: 1.07.1-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 224
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/bc_1.07.1-3_iphoneos-arm.deb
 Size: 50516
 MD5sum: 437489d872626d48c5ae4dd02aca0026
@@ -346,13 +346,13 @@ Section: Utilities
 Description: Arbitrary precision numeric processing language
 Name: bc
 
-Package: io.compute.bcal
+Package: io.mc.bcal
 Version: 2.1-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 76
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/bcal_2.1-2_iphoneos-arm.deb
 Size: 14636
 MD5sum: 0c1c9b96d1023f82431d9e8adc123cba
@@ -362,13 +362,13 @@ Section: Utilities
 Description: Storage conversion and expression calculator
 Name: bcal
 
-Package: io.compute.bcal
+Package: io.mc.bcal
 Version: 2.1-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 76
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/bcal_2.1-3_iphoneos-arm.deb
 Size: 14518
 MD5sum: 8b08b3721cf2937683257a57a3e9f026
@@ -378,13 +378,13 @@ Section: Utilities
 Description: Storage conversion and expression calculator
 Name: bcal
 
-Package: io.compute.bison
+Package: io.mc.bison
 Version: 3.4.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1120
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.m4
+Depends: io.mc.m4
 Filename: ./Computate/bison_3.4.2-1_iphoneos-arm.deb
 Size: 265516
 MD5sum: 71c4afb738804ca87783e3cf95171782
@@ -394,7 +394,7 @@ Section: Utilities
 Description: Parser generator
 Name: bison
 
-Package: io.compute.boost
+Package: io.mc.boost
 Version: 1.70.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -409,7 +409,7 @@ Section: Utilities
 Description: Collection of portable C++ source libraries
 Name: boost
 
-Package: io.compute.bsdiff
+Package: io.mc.bsdiff
 Version: 4.3-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -424,7 +424,7 @@ Section: Utilities
 Description: Generate and apply patches to binary files
 Name: bsdiff
 
-Package: io.compute.byacc
+Package: io.mc.byacc
 Version: 20190617-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -439,7 +439,7 @@ Section: Utilities
 Description: (Arguably) the best yacc variant
 Name: byacc
 
-Package: io.compute.c-ares
+Package: io.mc.c-ares
 Version: 1.15.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -454,13 +454,13 @@ Section: Development
 Description: Asynchronous DNS library
 Name: c-ares
 
-Package: io.compute.cairo
+Package: io.mc.cairo
 Version: 1.16.0-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 2196
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.fontconfig, io.compute.freetype, io.compute.glib, io.compute.libpng, io.compute.lzo, io.compute.pixman
+Depends: io.mc.fontconfig, io.mc.freetype, io.mc.glib, io.mc.libpng, io.mc.lzo, io.mc.pixman
 Filename: ./Computate/cairo_1.16.0-2_iphoneos-arm.deb
 Size: 468718
 MD5sum: 34e4707d0f2eb6e0a02ded2b487d1d1d
@@ -470,7 +470,7 @@ Section: Development
 Description: Vector graphics library with cross-device output support
 Name: cairo
 
-Package: io.compute.cmake
+Package: io.mc.cmake
 Version: 3.15.4-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -485,13 +485,13 @@ Section: Utilities
 Description: Cross-platform make
 Name: cmake
 
-Package: io.compute.curl
+Package: io.mc.curl
 Version: 7.65.3-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 972
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/curl_7.65.3-3_iphoneos-arm.deb
 Size: 320234
 MD5sum: 878cffc6619a4d85c2815d70d7834987
@@ -501,13 +501,13 @@ Section: Utilities
 Description: Get a file from an HTTP, HTTPS or FTP server
 Name: curl
 
-Package: io.compute.curl
+Package: io.mc.curl
 Version: 7.65.3-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 956
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/curl_7.65.3-4_iphoneos-arm.deb
 Size: 318776
 MD5sum: e0470ed3ec3766586ff87015ff987ec4
@@ -517,13 +517,13 @@ Section: Utilities
 Description: Get a file from an HTTP, HTTPS or FTP server
 Name: curl
 
-Package: io.compute.cyrus-sasl
+Package: io.mc.cyrus-sasl
 Version: 2.1.27-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1048
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/cyrus-sasl_2.1.27-2_iphoneos-arm.deb
 Size: 139260
 MD5sum: 2019ad4612aeb209b09776ff1dff516d
@@ -533,13 +533,13 @@ Section: Developer
 Description: Authentication abstraction library.
 Name: Cryus-sasl
 
-Package: io.compute.cyrus-sasl
+Package: io.mc.cyrus-sasl
 Version: 2.1.27-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1048
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/cyrus-sasl_2.1.27-3_iphoneos-arm.deb
 Size: 139020
 MD5sum: faa6ada3bbfc9426a1862f1037c8a03b
@@ -549,13 +549,13 @@ Section: Developer
 Description: Authentication abstraction library.
 Name: Cryus-sasl
 
-Package: io.compute.daq
+Package: io.mc.daq
 Version: 2.0.6-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 564
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpcap
+Depends: io.mc.libpcap
 Filename: ./Computate/daq_2.0.6-2_iphoneos-arm.deb
 Size: 90882
 MD5sum: 295f23e415fb4b8214f4a9d03f282d87
@@ -565,13 +565,13 @@ Section: Utilities
 Description: Network intrusion prevention and detection system
 Name: daq
 
-Package: io.compute.dash
+Package: io.mc.dash
 Version: 0.5.10.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 156
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/dash_0.5.10.2-1_iphoneos-arm.deb
 Size: 50090
 MD5sum: 2ede642869a2d1cb26a940dbe6c5c9b7
@@ -581,13 +581,13 @@ Section: Utilities
 Description: POSIX-compliant descendant of NetBSD's ash (the Almquist SHell)
 Name: dash
 
-Package: io.compute.dialog
+Package: io.mc.dialog
 Version: 1.3-20190728-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 848
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses
+Depends: io.mc.ncurses
 Filename: ./Computate/dialog_1.3-20190728-4_iphoneos-arm.deb
 Size: 226108
 MD5sum: f54f7d5178ccd411f11c84c8d9a993eb
@@ -597,13 +597,13 @@ Section: Utilities
 Description: Display user-friendly message boxes from shell scripts
 Name: dialog
 
-Package: io.compute.dialog
+Package: io.mc.dialog
 Version: 1.3-20190728-5
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 848
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses
+Depends: io.mc.ncurses
 Filename: ./Computate/dialog_1.3-20190728-5_iphoneos-arm.deb
 Size: 224998
 MD5sum: dae1d40420b0b249eae1ad76fc5033f4
@@ -613,7 +613,7 @@ Section: Utilities
 Description: Display user-friendly message boxes from shell scripts
 Name: dialog
 
-Package: io.compute.diffutils
+Package: io.mc.diffutils
 Version: 3.7-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -628,7 +628,7 @@ Section: Utilities
 Description: File comparison utilities
 Name: diffutils
 
-Package: io.compute.dropbear
+Package: io.mc.dropbear
 Version: 2019.78-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -643,13 +643,13 @@ Section: Utilities
 Description: Small SSH server/client for POSIX-based system
 Name: dropbear
 
-Package: io.compute.ettercap
+Package: io.mc.ettercap
 Version: 0.8.3-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3848
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.curl, io.compute.geoip, io.compute.libnet, io.compute.libpcap, io.compute.ncurses, io.compute.openssl, io.compute.pcre
+Depends: io.mc.curl, io.mc.geoip, io.mc.libnet, io.mc.libpcap, io.mc.ncurses, io.mc.openssl, io.mc.pcre
 Filename: ./Computate/ettercap_0.8.3-4_iphoneos-arm.deb
 Size: 691384
 MD5sum: 579fd44b90690fe7f52dc15f7248b1ca
@@ -659,13 +659,13 @@ Section: Utilities
 Description: Multipurpose sniffer/interceptor/logger for switched LAN
 Name: ettercap
 
-Package: io.compute.ettercap
+Package: io.mc.ettercap
 Version: 0.8.3-5
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3848
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.curl, io.compute.geoip, io.compute.libnet, io.compute.libpcap, io.compute.ncurses, io.compute.openssl, io.compute.pcre
+Depends: io.mc.curl, io.mc.geoip, io.mc.libnet, io.mc.libpcap, io.mc.ncurses, io.mc.openssl, io.mc.pcre
 Filename: ./Computate/ettercap_0.8.3-5_iphoneos-arm.deb
 Size: 689878
 MD5sum: f1bb8e08b29b419c9b86d5d41bcf08da
@@ -675,7 +675,7 @@ Section: Utilities
 Description: Multipurpose sniffer/interceptor/logger for switched LAN
 Name: ettercap
 
-Package: io.compute.expat
+Package: io.mc.expat
 Version: 2.2.7-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -690,13 +690,13 @@ Section: Utilities
 Description: XML 1.0 parser
 Name: expat
 
-Package: io.compute.fish
+Package: io.mc.fish
 Version: 3.0.2-7
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 11556
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses, io.compute.pcre2
+Depends: io.mc.ncurses, io.mc.pcre2
 Filename: ./Computate/fish_3.0.2-7_iphoneos-arm.deb
 Size: 1325130
 MD5sum: 2934c3ab83693360993428acd34a90c6
@@ -706,13 +706,13 @@ Section: Utilities
 Description: User-friendly command-line shell for UNIX-like operating systems
 Name: fish
 
-Package: io.compute.fontconfig
+Package: io.mc.fontconfig
 Version: 2.13.1-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1080
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.expat, io.compute.freetype
+Depends: io.mc.expat, io.mc.freetype
 Filename: ./Computate/fontconfig_2.13.1-2_iphoneos-arm.deb
 Size: 132496
 MD5sum: 9d4dbe306004608ae52ac9ac3bcee670
@@ -722,13 +722,13 @@ Section: Utilities
 Description: XML-based font configuration API for X Windows
 Name: fontconfig
 
-Package: io.compute.freetype
+Package: io.mc.freetype
 Version: 2.10.1-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1604
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpng
+Depends: io.mc.libpng
 Filename: ./Computate/freetype_2.10.1-2_iphoneos-arm.deb
 Size: 407776
 MD5sum: a4618e44137fca22110d11f2fdbe7971
@@ -738,7 +738,7 @@ Section: Development
 Description: Software library to render fonts
 Name: freetype
 
-Package: io.compute.gdbm
+Package: io.mc.gdbm
 Version: 1.18.1-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -753,7 +753,7 @@ Section: Utilities
 Description: GNU database manager
 Name: gdbm
 
-Package: io.compute.geoip
+Package: io.mc.geoip
 Version: 1.6.12-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -768,7 +768,7 @@ Section: Development
 Description: This library is for the GeoIP Legacy format (dat)
 Name: geoip
 
-Package: io.compute.gettext
+Package: io.mc.gettext
 Version: 0.20.1-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -783,7 +783,7 @@ Section: Development
 Description: GNU internationalization (i18n) and localization (l10n) library
 Name: gettext
 
-Package: io.compute.giflib
+Package: io.mc.giflib
 Version: 5.1.4-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -798,13 +798,13 @@ Section: Utilities
 Description: Library and utilities for processing GIFs
 Name: giflib
 
-Package: io.compute.glib
+Package: io.mc.glib
 Version: 2.60.6-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 8152
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gettext, io.compute.libffi, io.compute.pcre
+Depends: io.mc.gettext, io.mc.libffi, io.mc.pcre
 Filename: ./Computate/glib_2.60.6-3_iphoneos-arm.deb
 Size: 1372558
 MD5sum: 4d4c98fdf15680b60a1eae38c2fcbee9
@@ -814,13 +814,13 @@ Section: Development
 Description: Core application library for C
 Name: glib
 
-Package: io.compute.glib
+Package: io.mc.glib
 Version: 2.60.6-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 8120
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gettext, io.compute.libffi, io.compute.pcre
+Depends: io.mc.gettext, io.mc.libffi, io.mc.pcre
 Filename: ./Computate/glib_2.60.6-4_iphoneos-arm.deb
 Size: 1367096
 MD5sum: 2eee4ea0af672b259a6a435b28892781
@@ -830,13 +830,13 @@ Section: Development
 Description: Core application library for C
 Name: glib
 
-Package: io.compute.glib
+Package: io.mc.glib
 Version: 2.62.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 8268
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gettext, io.compute.libffi, io.compute.pcre
+Depends: io.mc.gettext, io.mc.libffi, io.mc.pcre
 Filename: ./Computate/glib_2.62.2-1_iphoneos-arm.deb
 Size: 1390054
 MD5sum: bd270ab33f81b6d27683ff66c5b07ac2
@@ -846,7 +846,7 @@ Section: Development
 Description: Core application library for C
 Name: glib
 
-Package: io.compute.gmp
+Package: io.mc.gmp
 Version: 6.1.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -861,13 +861,13 @@ Section: Development
 Description: GNU multiple precision arithmetic library
 Name: gmp
 
-Package: io.compute.gnutls
+Package: io.mc.gnutls
 Version: 3.6.9-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 4092
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gmp, io.compute.libidn2, io.compute.libtasn1, io.compute.libunistring, io.compute.nettle, io.compute.p11-kit, io.compute.unbound
+Depends: io.mc.gmp, io.mc.libidn2, io.mc.libtasn1, io.mc.libunistring, io.mc.nettle, io.mc.p11-kit, io.mc.unbound
 Filename: ./Computate/gnutls_3.6.9-1_iphoneos-arm.deb
 Size: 904074
 MD5sum: 24f7b67c1ba45c6bf0b22bc308c6c0ec
@@ -877,7 +877,7 @@ Section: Utilities
 Description: GNU Transport Layer Security (TLS) Library
 Name: gnutls
 
-Package: io.compute.graphite2
+Package: io.mc.graphite2
 Version: 1.3.13-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -892,13 +892,13 @@ Section: Utilities
 Description: Smart font renderer for non-Roman scripts
 Name: graphite2
 
-Package: io.compute.harfbuzz
+Package: io.mc.harfbuzz
 Version: 2.5.3-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 5608
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.cairo, io.compute.freetype, io.compute.glib, io.compute.graphite2, io.compute.icu4c
+Depends: io.mc.cairo, io.mc.freetype, io.mc.glib, io.mc.graphite2, io.mc.icu4c
 Filename: ./Computate/harfbuzz_2.5.3-2_iphoneos-arm.deb
 Size: 681388
 MD5sum: d11ec660647ce5f93b2d82b876fdee3f
@@ -908,13 +908,13 @@ Section: Utilities
 Description: OpenType text shaping engine
 Name: harfbuzz
 
-Package: io.compute.hping
+Package: io.mc.hping
 Version: 3.20051105-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 200
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpcap
+Depends: io.mc.libpcap
 Filename: ./Computate/hping_3.20051105-2_iphoneos-arm.deb
 Size: 56654
 MD5sum: 551fe1e00a4c41cfb0a1a7b2f0f58ad5
@@ -924,13 +924,13 @@ Section: Utilities
 Description: Command-line oriented TCP/IP packet assembler/analyzer
 Name: hping
 
-Package: io.compute.httpry
+Package: io.mc.httpry
 Version: 0.1.8-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 80
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpcap
+Depends: io.mc.libpcap
 Filename: ./Computate/httpry_0.1.8-2_iphoneos-arm.deb
 Size: 13968
 MD5sum: 2e25e4aba3692f84fdf7eadac4b7940b
@@ -940,7 +940,7 @@ Section: Utilities
 Description: Packet sniffer for displaying and logging HTTP traffic
 Name: httpry
 
-Package: io.compute.icu4c
+Package: io.mc.icu4c
 Version: 64.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -955,13 +955,13 @@ Section: Utilities
 Description: C/C++ and Java libraries for Unicode and globalization
 Name: icu4c
 
-Package: io.compute.ike-scan
+Package: io.mc.ike-scan
 Version: 1.9.4-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 4220
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl-1.1
+Depends: io.mc.openssl-1.1
 Filename: ./Computate/ike-scan_1.9.4-3_iphoneos-arm.deb
 Size: 975156
 MD5sum: dfecacdf81ea59742982309ca2d24a79
@@ -971,7 +971,7 @@ Section: Utilities
 Description: Discover and fingerprint IKE hosts
 Name: ike-scan
 
-Package: io.compute.jansson
+Package: io.mc.jansson
 Version: 2.12-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -986,7 +986,7 @@ Section: Development
 Description: C library for encoding, decoding, and manipulating JSON
 Name: jansson
 
-Package: io.compute.jemalloc
+Package: io.mc.jemalloc
 Version: 5.2.1-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1001,13 +1001,13 @@ Section: Utilities
 Description: malloc implementation emphasizing fragmentation avoidance
 Name: jemalloc
 
-Package: io.compute.john-jumbo
+Package: io.mc.john-jumbo
 Version: 1.9.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 74312
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gmp, io.compute.openssl
+Depends: io.mc.gmp, io.mc.openssl
 Filename: ./Computate/john-jumbo_1.9.0-1_iphoneos-arm.deb
 Size: 29234394
 MD5sum: 0887b492ce092e6abf8b4856cfd8195c
@@ -1017,7 +1017,7 @@ Section: Utilities
 Description: Enhanced version of john, a UNIX password cracker
 Name: john-jumbo
 
-Package: io.compute.jpeg
+Package: io.mc.jpeg
 Version: 9c-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1032,13 +1032,13 @@ Section: Development
 Description: Image manipulation library
 Name: jpeg
 
-Package: io.compute.jq
+Package: io.mc.jq
 Version: 1.6-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 400
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.oniguruma
+Depends: io.mc.oniguruma
 Filename: ./Computate/jq_1.6-2_iphoneos-arm.deb
 Size: 108380
 MD5sum: 7857895b3b01e7ded740f41953cb2d9b
@@ -1048,7 +1048,7 @@ Section: Utilities
 Description: Lightweight and flexible command-line JSON processor
 Name: jq
 
-Package: io.compute.libdnet
+Package: io.mc.libdnet
 Version: 1.12-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1063,7 +1063,7 @@ Section: Development
 Description: Portable low-level networking library
 Name: libdnet
 
-Package: io.compute.libev
+Package: io.mc.libev
 Version: 4.27-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1078,13 +1078,13 @@ Section: Development
 Description: Asynchronous event library
 Name: libev
 
-Package: io.compute.libevent
+Package: io.mc.libevent
 Version: 2.1.11-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1304
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/libevent_2.1.11-3_iphoneos-arm.deb
 Size: 211796
 MD5sum: 15b1e46895c2261a1bc9d5f5fd1e2170
@@ -1094,13 +1094,13 @@ Section: Development
 Description: Asynchronous event library
 Name: libevent
 
-Package: io.compute.libevent
+Package: io.mc.libevent
 Version: 2.1.11-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1304
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/libevent_2.1.11-4_iphoneos-arm.deb
 Size: 210948
 MD5sum: b71d595c46b5ba61429ed416fce1934d
@@ -1110,7 +1110,7 @@ Section: Development
 Description: Asynchronous event library
 Name: libevent
 
-Package: io.compute.libffi
+Package: io.mc.libffi
 Version: 3.2.1-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1125,7 +1125,7 @@ Section: Development
 Description: Portable Foreign Function Interface library
 Name: libffi
 
-Package: io.compute.libidn
+Package: io.mc.libidn
 Version: 1.35-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1140,13 +1140,13 @@ Section: Development
 Description: International domain name library
 Name: libidn
 
-Package: io.compute.libidn2
+Package: io.mc.libidn2
 Version: 2.2.0-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 272
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gettext, io.compute.libunistring
+Depends: io.mc.gettext, io.mc.libunistring
 Filename: ./Computate/libidn2_2.2.0-2_iphoneos-arm.deb
 Size: 60862
 MD5sum: 62b5100957f4ef2f11e1650da6cbccab
@@ -1156,13 +1156,13 @@ Section: Development
 Description: International domain name library (IDNA2008, Punycode and TR46)
 Name: libidn2
 
-Package: io.compute.libimobiledevice
+Package: io.mc.libimobiledevice
 Version: 1.2.0-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1392
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libplist, io.compute.libtasn1, io.compute.libusbmuxd, io.compute.openssl
+Depends: io.mc.libplist, io.mc.libtasn1, io.mc.libusbmuxd, io.mc.openssl
 Filename: ./Computate/libimobiledevice_1.2.0-2_iphoneos-arm.deb
 Size: 135208
 MD5sum: a150ce67f1457d43c7552f61952f701e
@@ -1172,13 +1172,13 @@ Section: Utilities
 Description: Library to communicate with iOS devices natively
 Name: libimobiledevice
 
-Package: io.compute.libimobiledevice
+Package: io.mc.libimobiledevice
 Version: 1.2.0-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1392
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libplist, io.compute.libtasn1, io.compute.libusbmuxd, io.compute.openssl
+Depends: io.mc.libplist, io.mc.libtasn1, io.mc.libusbmuxd, io.mc.openssl
 Filename: ./Computate/libimobiledevice_1.2.0-3_iphoneos-arm.deb
 Size: 135572
 MD5sum: e5c5527186d6155988d9d5c805aa7197
@@ -1188,7 +1188,7 @@ Section: Utilities
 Description: Library to communicate with iOS devices natively
 Name: libimobiledevice
 
-Package: io.compute.libmagic
+Package: io.mc.libmagic
 Version: 5.37-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1203,7 +1203,7 @@ Section: Utilities
 Description: Implementation of the file(1) command
 Name: file
 
-Package: io.compute.libnet
+Package: io.mc.libnet
 Version: 1.1.6-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1218,7 +1218,7 @@ Section: Development
 Description: C library for creating IP packets
 Name: libnet
 
-Package: io.compute.libpcap
+Package: io.mc.libpcap
 Version: 1.9.0-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1233,7 +1233,7 @@ Section: Development
 Description: Portable library for network traffic capture
 Name: libpcap
 
-Package: io.compute.libplist
+Package: io.mc.libplist
 Version: 2.0.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1248,7 +1248,7 @@ Section: Utilities
 Description: Library for Apple Binary- and XML-Property Lists
 Name: libplist
 
-Package: io.compute.libpng
+Package: io.mc.libpng
 Version: 1.6.37-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1263,7 +1263,7 @@ Section: Utilities
 Description: Library for manipulating PNG images
 Name: libpng
 
-Package: io.compute.libscrypt
+Package: io.mc.libscrypt
 Version: 1.21-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1278,13 +1278,13 @@ Section: Utilities
 Description: Library for scrypt
 Name: libscrypt
 
-Package: io.compute.libssh
+Package: io.mc.libssh
 Version: 0.9.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1836
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/libssh_0.9.0-1_iphoneos-arm.deb
 Size: 307722
 MD5sum: 7e7a44f8a99586c4cb7eacecfe8ba727
@@ -1294,13 +1294,13 @@ Section: Development
 Description: C library SSHv1/SSHv2 client and server protocols
 Name: libssh
 
-Package: io.compute.libssh2
+Package: io.mc.libssh2
 Version: 1.9.0-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 332
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/libssh2_1.9.0-2_iphoneos-arm.deb
 Size: 89026
 MD5sum: 5f698383796c79911be37573ea900032
@@ -1310,13 +1310,13 @@ Section: Development
 Description: C library implementing the SSH2 protocol
 Name: libssh2
 
-Package: io.compute.libssh2
+Package: io.mc.libssh2
 Version: 1.9.0-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 332
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openssl
+Depends: io.mc.openssl
 Filename: ./Computate/libssh2_1.9.0-3_iphoneos-arm.deb
 Size: 88412
 MD5sum: f3497fddf701cb9700ee40ca9cd6f2b6
@@ -1326,7 +1326,7 @@ Section: Development
 Description: C library implementing the SSH2 protocol
 Name: libssh2
 
-Package: io.compute.libtasn1
+Package: io.mc.libtasn1
 Version: 4.14-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1341,13 +1341,13 @@ Section: Development
 Description: ASN.1 structure parser library
 Name: libtasn1
 
-Package: io.compute.libtiff
+Package: io.mc.libtiff
 Version: 4.0.10-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1712
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.jpeg
+Depends: io.mc.jpeg
 Filename: ./Computate/libtiff_4.0.10-2_iphoneos-arm.deb
 Size: 273272
 MD5sum: c7191ddac89ccaa70bbeeea98561021d
@@ -1357,7 +1357,7 @@ Section: Development
 Description: TIFF library and utilities
 Name: libtiff
 
-Package: io.compute.libtool
+Package: io.mc.libtool
 Version: 2.4.6-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1372,7 +1372,7 @@ Section: Development
 Description: Generic library support script
 Name: libtool
 
-Package: io.compute.libunistring
+Package: io.mc.libunistring
 Version: 0.9.10-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1387,7 +1387,7 @@ Section: Development
 Description: C string library for manipulating Unicode strings
 Name: libunistring
 
-Package: io.compute.libusb
+Package: io.mc.libusb
 Version: 1.0.23-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1402,7 +1402,7 @@ Section: Utilities
 Description: Library for USB device access
 Name: libusb
 
-Package: io.compute.libusb
+Package: io.mc.libusb
 Version: 1.0.23-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1417,7 +1417,7 @@ Section: Utilities
 Description: Library for USB device access
 Name: libusb
 
-Package: io.compute.libusb
+Package: io.mc.libusb
 Version: 1.0.23-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1432,13 +1432,13 @@ Section: Utilities
 Description: Library for USB device access
 Name: libusb
 
-Package: io.compute.libusbmuxd
+Package: io.mc.libusbmuxd
 Version: 1.0.10-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 148
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libplist, io.compute.libusb
+Depends: io.mc.libplist, io.mc.libusb
 Filename: ./Computate/libusbmuxd_1.0.10-2_iphoneos-arm.deb
 Size: 17188
 MD5sum: 023cdfa92c01d371d8a0e43f2c81b29f
@@ -1448,13 +1448,13 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
-Package: io.compute.libusbmuxd
+Package: io.mc.libusbmuxd
 Version: 1.0.10-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 148
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libplist, io.compute.libusb
+Depends: io.mc.libplist, io.mc.libusb
 Filename: ./Computate/libusbmuxd_1.0.10-3_iphoneos-arm.deb
 Size: 17214
 MD5sum: 985b90f39b5a9f0f5d8038f1af19c367
@@ -1464,7 +1464,7 @@ Section: Development
 Description: Library of the USB multiplexor daemon
 Name: libusbmuxd
 
-Package: io.compute.libuv
+Package: io.mc.libuv
 Version: 1.31.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1479,7 +1479,7 @@ Section: Development
 Description: Multi-platform support library with a focus on asynchronous I/O
 Name: libuv
 
-Package: io.compute.libxml2
+Package: io.mc.libxml2
 Version: 2.9.9-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1494,13 +1494,13 @@ Section: Development
 Description: GNOME XML library
 Name: libxml2
 
-Package: io.compute.lighttpd
+Package: io.mc.lighttpd
 Version: 1.4.54-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 2452
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openldap, io.compute.openssl, io.compute.pcre
+Depends: io.mc.openldap, io.mc.openssl, io.mc.pcre
 Filename: ./Computate/lighttpd_1.4.54-2_iphoneos-arm.deb
 Size: 244214
 MD5sum: 7faceb3bb59bd2da2e1a38c1a2f56fa8
@@ -1510,13 +1510,13 @@ Section: Utilities
 Description: Small memory footprint, flexible web-server
 Name: lighttpd
 
-Package: io.compute.lighttpd
+Package: io.mc.lighttpd
 Version: 1.4.54-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 2500
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.openldap, io.compute.openssl, io.compute.pcre
+Depends: io.mc.openldap, io.mc.openssl, io.mc.pcre
 Filename: ./Computate/lighttpd_1.4.54-3_iphoneos-arm.deb
 Size: 256382
 MD5sum: b0abd0847b8fdbf614b1c1abb47853a7
@@ -1526,13 +1526,13 @@ Section: Utilities
 Description: Small memory footprint, flexible web-server
 Name: lighttpd
 
-Package: io.compute.lua
+Package: io.mc.lua
 Version: 5.3.5-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 456
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/lua_5.3.5-3_iphoneos-arm.deb
 Size: 99556
 MD5sum: 8797b64a49110033dd7c5aaec6eac79d
@@ -1542,13 +1542,13 @@ Section: Utilities
 Description: Powerful, lightweight programming language
 Name: lua
 
-Package: io.compute.lua
+Package: io.mc.lua
 Version: 5.3.5-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 456
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/lua_5.3.5-4_iphoneos-arm.deb
 Size: 98872
 MD5sum: 3a11c1a64476539342503fbba4906d31
@@ -1558,7 +1558,7 @@ Section: Utilities
 Description: Powerful, lightweight programming language
 Name: lua
 
-Package: io.compute.lzo
+Package: io.mc.lzo
 Version: 2.10-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1573,7 +1573,7 @@ Section: Development
 Description: Real-time data compression library
 Name: lzo
 
-Package: io.compute.m4
+Package: io.mc.m4
 Version: 1.4.18-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1588,7 +1588,7 @@ Section: Utilities
 Description: Macro processing language
 Name: m4
 
-Package: io.compute.make
+Package: io.mc.make
 Version: 4.2.1-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1603,7 +1603,7 @@ Section: Utilities
 Description: Utility for directing compilation
 Name: make
 
-Package: io.compute.masscan
+Package: io.mc.masscan
 Version: 1.0.5-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1618,13 +1618,13 @@ Section: Utilities
 Description: TCP port scanner, scans entire Internet in under 5 minutes
 Name: masscan
 
-Package: io.compute.megatools
+Package: io.mc.megatools
 Version: 1.10.2-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1436
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.curl, io.compute.glib, io.compute.openssl
+Depends: io.mc.curl, io.mc.glib, io.mc.openssl
 Filename: ./Computate/megatools_1.10.2-2_iphoneos-arm.deb
 Size: 128866
 MD5sum: d12a09d70ccf421d281330cf8210b54e
@@ -1634,13 +1634,13 @@ Section: Utilities
 Description: Command-line client for Mega.co.nz
 Name: megatools
 
-Package: io.compute.megatools
+Package: io.mc.megatools
 Version: 1.10.2-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1420
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.curl, io.compute.glib, io.compute.openssl
+Depends: io.mc.curl, io.mc.glib, io.mc.openssl
 Filename: ./Computate/megatools_1.10.2-3_iphoneos-arm.deb
 Size: 128714
 MD5sum: 69e3a63eb5fc8a1faaef0a157241fd69
@@ -1650,13 +1650,13 @@ Section: Utilities
 Description: Command-line client for Mega.co.nz
 Name: megatools
 
-Package: io.compute.midnight-commander
+Package: io.mc.midnight-commander
 Version: 4.8.22-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 4184
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.glib, io.compute.libssh2, io.compute.openssl, io.compute.s-lang
+Depends: io.mc.glib, io.mc.libssh2, io.mc.openssl, io.mc.s-lang
 Filename: ./Computate/midnight-commander_4.8.22-1_iphoneos-arm.deb
 Size: 792722
 MD5sum: a263af40acf66a36a85c5ff037ac351c
@@ -1666,13 +1666,13 @@ Section: Utilities
 Description: Terminal-based visual file manager
 Name: midnight-commander
 
-Package: io.compute.mosh
+Package: io.mc.mosh
 Version: 1.3.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1004
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses, io.compute.protobuf
+Depends: io.mc.ncurses, io.mc.protobuf
 Filename: ./Computate/mosh_1.3.2-1_iphoneos-arm.deb
 Size: 206650
 MD5sum: 54d96734c3b7d4835424dd5a69e41636
@@ -1682,13 +1682,13 @@ Section: Utilities
 Description: Remote terminal application
 Name: mosh
 
-Package: io.compute.ncdu
+Package: io.mc.ncdu
 Version: 1.14.1-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 284
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses
+Depends: io.mc.ncurses
 Filename: ./Computate/ncdu_1.14.1-3_iphoneos-arm.deb
 Size: 100850
 MD5sum: 98d0b45f7c5444dfe9d57ec33d6df4ba
@@ -1698,13 +1698,13 @@ Section: Utilities
 Description: NCurses Disk Usage
 Name: ncdu
 
-Package: io.compute.ncdu
+Package: io.mc.ncdu
 Version: 1.14.1-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 284
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses
+Depends: io.mc.ncurses
 Filename: ./Computate/ncdu_1.14.1-4_iphoneos-arm.deb
 Size: 100028
 MD5sum: 752177f9cd962b925e02b0330658a744
@@ -1714,7 +1714,7 @@ Section: Utilities
 Description: NCurses Disk Usage
 Name: ncdu
 
-Package: io.compute.ncurses
+Package: io.mc.ncurses
 Version: 6.1-5
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1729,7 +1729,7 @@ Section: Development
 Description: Text-based UI library
 Name: ncurses
 
-Package: io.compute.ncurses
+Package: io.mc.ncurses
 Version: 6.1-6
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1744,13 +1744,13 @@ Section: Development
 Description: Text-based UI library
 Name: ncurses
 
-Package: io.compute.nettle
+Package: io.mc.nettle
 Version: 3.4.1-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1244
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.gmp
+Depends: io.mc.gmp
 Filename: ./Computate/nettle_3.4.1-3_iphoneos-arm.deb
 Size: 282010
 MD5sum: 9cc5e7850c1d92ff44290d16887aaed4
@@ -1760,13 +1760,13 @@ Section: Development
 Description: Low-level cryptographic library
 Name: nettle
 
-Package: io.compute.nghttp2
+Package: io.mc.nghttp2
 Version: 1.39.2-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 2500
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.c-ares, io.compute.jansson, io.compute.jemalloc, io.compute.libev, io.compute.libevent, io.compute.libxml2, io.compute.openssl
+Depends: io.mc.c-ares, io.mc.jansson, io.mc.jemalloc, io.mc.libev, io.mc.libevent, io.mc.libxml2, io.mc.openssl
 Filename: ./Computate/nghttp2_1.39.2-2_iphoneos-arm.deb
 Size: 527474
 MD5sum: 0f4874982a316c852afb20e4c9bbc939
@@ -1776,13 +1776,13 @@ Section: Utilities
 Description: HTTP/2 C Library
 Name: nghttp2
 
-Package: io.compute.nghttp2
+Package: io.mc.nghttp2
 Version: 1.39.2-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 2528
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.c-ares, io.compute.jansson, io.compute.jemalloc, io.compute.libev, io.compute.libevent, io.compute.libxml2, io.compute.openssl
+Depends: io.mc.c-ares, io.mc.jansson, io.mc.jemalloc, io.mc.libev, io.mc.libevent, io.mc.libxml2, io.mc.openssl
 Filename: ./Computate/nghttp2_1.39.2-3_iphoneos-arm.deb
 Size: 534038
 MD5sum: cb88834906dacdf2857d948d221c849d
@@ -1792,13 +1792,13 @@ Section: Utilities
 Description: HTTP/2 C Library
 Name: nghttp2
 
-Package: io.compute.nmap
+Package: io.mc.nmap
 Version: 7.80-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 25876
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libdnet, io.compute.libssh2, io.compute.lua, io.compute.openssl, io.compute.pcre
+Depends: io.mc.libdnet, io.mc.libssh2, io.mc.lua, io.mc.openssl, io.mc.pcre
 Filename: ./Computate/nmap_7.80-3_iphoneos-arm.deb
 Size: 4531148
 MD5sum: cf566c52b2c13e91b4f2f2ba28b7e496
@@ -1808,13 +1808,13 @@ Section: Networking
 Description: Port scanning utility for large networks
 Name: nmap
 
-Package: io.compute.nmap
+Package: io.mc.nmap
 Version: 7.80-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 25892
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libdnet, io.compute.libssh2, io.compute.lua, io.compute.openssl, io.compute.pcre
+Depends: io.mc.libdnet, io.mc.libssh2, io.mc.lua, io.mc.openssl, io.mc.pcre
 Filename: ./Computate/nmap_7.80-4_iphoneos-arm.deb
 Size: 4535506
 MD5sum: f29a05c64c617c4f8aafe609b3cc2ebc
@@ -1824,13 +1824,13 @@ Section: Networking
 Description: Port scanning utility for large networks
 Name: nmap
 
-Package: io.compute.nnn
+Package: io.mc.nnn
 Version: 2.7-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 332
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses, io.compute.readline
+Depends: io.mc.ncurses, io.mc.readline
 Filename: ./Computate/nnn_2.7-1_iphoneos-arm.deb
 Size: 117220
 MD5sum: 0971c6c75ab08e7f2ebe74abf00a17a5
@@ -1840,13 +1840,13 @@ Section: Utilities
 Description: Tiny, lightning fast, feature-packed file manager
 Name: nnn
 
-Package: io.compute.node
+Package: io.mc.node
 Version: 12.9.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 53168
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.c-ares, io.compute.nghttp2, io.compute.openssl-1.1
+Depends: io.mc.c-ares, io.mc.nghttp2, io.mc.openssl-1.1
 Filename: ./Computate/node_12.9.0-1_iphoneos-arm.deb
 Size: 8173342
 MD5sum: 62dcdd47d862ce47ca714b3e844f3ab0
@@ -1856,13 +1856,13 @@ Section: Networking
 Description: Platform built on V8 to build network applications
 Name: node
 
-Package: io.compute.node
+Package: io.mc.node
 Version: 12.9.0-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 53180
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.c-ares, io.compute.nghttp2, io.compute.openssl-1.1
+Depends: io.mc.c-ares, io.mc.nghttp2, io.mc.openssl-1.1
 Filename: ./Computate/node_12.9.0-3_iphoneos-arm.deb
 Size: 8158170
 MD5sum: 551b99d7114372e4ef903448a9a120a0
@@ -1872,7 +1872,7 @@ Section: Networking
 Description: Platform built on V8 to build network applications
 Name: node
 
-Package: io.compute.oniguruma
+Package: io.mc.oniguruma
 Version: 6.9.3-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1887,13 +1887,13 @@ Section: Development
 Description: Regular expressions library
 Name: oniguruma
 
-Package: io.compute.openjdk
+Package: io.mc.openjdk
 Version: 11+28-11
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 213664
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libffi
+Depends: io.mc.libffi
 Filename: ./Computate/openjdk_11+28-11_iphoneos-arm.deb
 Size: 93830246
 MD5sum: 71391e563c6de4bc2c3bfdc4a8f8a05b
@@ -1903,13 +1903,13 @@ Section: Java
 Description: Free and open-source implementation of the Java Platform.
 Name: OpenJDK
 
-Package: io.compute.openjdk
+Package: io.mc.openjdk
 Version: 11+28-12
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 213664
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libffi
+Depends: io.mc.libffi
 Filename: ./Computate/openjdk_11+28-12_iphoneos-arm.deb
 Size: 93832446
 MD5sum: 090b8c36465713f2b4512f6f0b0053b5
@@ -1919,13 +1919,13 @@ Section: Java
 Description: Free and open-source implementation of the Java Platform.
 Name: OpenJDK
 
-Package: io.compute.openldap
+Package: io.mc.openldap
 Version: 2.4.48-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3608
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.cyrus-sasl, io.compute.openssl
+Depends: io.mc.cyrus-sasl, io.mc.openssl
 Filename: ./Computate/openldap_2.4.48-2_iphoneos-arm.deb
 Size: 789692
 MD5sum: 011eaeeff3de7879a8ed8732416630ca
@@ -1935,13 +1935,13 @@ Section: Utilities
 Description: Open source suite of directory software
 Name: openldap
 
-Package: io.compute.openldap
+Package: io.mc.openldap
 Version: 2.4.48-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3652
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.cyrus-sasl, io.compute.openssl
+Depends: io.mc.cyrus-sasl, io.mc.openssl
 Filename: ./Computate/openldap_2.4.48-3_iphoneos-arm.deb
 Size: 808060
 MD5sum: 653bc85c9030dde1c72ddb741cbcdc70
@@ -1951,7 +1951,7 @@ Section: Utilities
 Description: Open source suite of directory software
 Name: openldap
 
-Package: io.compute.openssl
+Package: io.mc.openssl
 Version: 1.0.2s-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1966,7 +1966,7 @@ Section: Development
 Description: SSL/TLS cryptography library
 Name: openssl
 
-Package: io.compute.openssl
+Package: io.mc.openssl
 Version: 1.0.2s-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1981,7 +1981,7 @@ Section: Development
 Description: SSL/TLS cryptography library
 Name: openssl
 
-Package: io.compute.openssl-1.1
+Package: io.mc.openssl-1.1
 Version: 1.1.1c-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -1996,13 +1996,13 @@ Section: Utilities
 Description: Cryptography and SSL/TLS Toolkit
 Name: openssl@1.1
 
-Package: io.compute.p11-kit
+Package: io.mc.p11-kit
 Version: 0.23.16.1-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3356
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libffi
+Depends: io.mc.libffi
 Filename: ./Computate/p11-kit_0.23.16.1-3_iphoneos-arm.deb
 Size: 366054
 MD5sum: 70e1a9cff503bf0d6b8b8e1b58588271
@@ -2012,7 +2012,7 @@ Section: Utilities
 Description: Library to load and enumerate PKCS#11 modules
 Name: p11-kit
 
-Package: io.compute.pcre
+Package: io.mc.pcre
 Version: 8.43-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -2027,7 +2027,7 @@ Section: Development
 Description: Perl compatible regular expressions library
 Name: pcre
 
-Package: io.compute.pcre2
+Package: io.mc.pcre2
 Version: 10.33-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -2042,7 +2042,7 @@ Section: Development
 Description: Perl compatible regular expressions library with a new API
 Name: pcre2
 
-Package: io.compute.pixman
+Package: io.mc.pixman
 Version: 0.38.4-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -2057,7 +2057,7 @@ Section: Development
 Description: Low-level library for pixel manipulation
 Name: pixman
 
-Package: io.compute.protobuf
+Package: io.mc.protobuf
 Version: 3.10.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -2072,13 +2072,13 @@ Section: Utilities
 Description: Protocol buffers (Google's data interchange format)
 Name: protobuf
 
-Package: io.compute.ptunnel
+Package: io.mc.ptunnel
 Version: 0.72-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 104
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpcap
+Depends: io.mc.libpcap
 Filename: ./Computate/ptunnel_0.72-1_iphoneos-arm.deb
 Size: 22092
 MD5sum: e647ccdfb999c011544c0618ac07a065
@@ -2088,13 +2088,13 @@ Section: Utilities
 Description: Tunnel over ICMP
 Name: ptunnel
 
-Package: io.compute.pyobjc
+Package: io.mc.pyobjc
 Version: 5.2-6
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1184
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libffi, io.compute.libxml2, io.compute.python
+Depends: io.mc.libffi, io.mc.libxml2, io.mc.python
 Filename: ./Computate/pyobjc_5.2-6_iphoneos-arm.deb
 Size: 219274
 MD5sum: d607ecfae5f3a3e5cb4e0792d3a9b0e5
@@ -2105,13 +2105,13 @@ Priority: optional
 Description: Python/Objective-C connection library
 Name: PyObjC
 
-Package: io.compute.python
+Package: io.mc.python
 Version: 3.7.4-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 55104
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.expat, io.compute.gdbm, io.compute.libffi, io.compute.ncurses, io.compute.openssl, io.compute.openssl-1.1, io.compute.readline, io.compute.sqlite, io.compute.xz
+Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
 Filename: ./Computate/python_3.7.4-3_iphoneos-arm.deb
 Size: 10137382
 MD5sum: 85985b5bf5f5e10f47f2d8ec77da0c0c
@@ -2121,13 +2121,13 @@ Section: Utilities
 Description: Interpreted, interactive, object-oriented programming language
 Name: python
 
-Package: io.compute.python
+Package: io.mc.python
 Version: 3.7.4-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 55104
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.expat, io.compute.gdbm, io.compute.libffi, io.compute.ncurses, io.compute.openssl, io.compute.openssl-1.1, io.compute.readline, io.compute.sqlite, io.compute.xz
+Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
 Filename: ./Computate/python_3.7.4-4_iphoneos-arm.deb
 Size: 10135482
 MD5sum: 0410e78f75c87bfb802a09a591975f10
@@ -2137,13 +2137,13 @@ Section: Utilities
 Description: Interpreted, interactive, object-oriented programming language
 Name: python
 
-Package: io.compute.qemu
+Package: io.mc.qemu
 Version: 4.1.0+debug-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 250344
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.glib, io.compute.gnutls, io.compute.jpeg, io.compute.libpng, io.compute.libssh, io.compute.libusb, io.compute.lzo, io.compute.ncurses, io.compute.pixman, io.compute.vde
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
 Filename: ./Computate/qemu_4.1.0+debug-1_iphoneos-arm.deb
 Size: 17199574
 MD5sum: 79e297c8730ae8d407875d0730ff151f
@@ -2153,13 +2153,13 @@ Section: Utilities
 Description: Generic and open source machine emulator and virtualizer (debug build).
   Generic and open source machine emulator and virtualizer.
 
-Package: io.compute.qemu
+Package: io.mc.qemu
 Version: 4.1.0+debug-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 250400
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.glib, io.compute.gnutls, io.compute.jpeg, io.compute.libpng, io.compute.libssh, io.compute.libusb, io.compute.lzo, io.compute.ncurses, io.compute.pixman, io.compute.vde
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
 Filename: ./Computate/qemu_4.1.0+debug-3_iphoneos-arm.deb
 Size: 17210306
 MD5sum: 301862c0ba8137b49c3f3b31e046d4ea
@@ -2169,13 +2169,13 @@ Section: Utilities
 Description: Generic and open source machine emulator and virtualizer (debug build).
   Generic and open source machine emulator and virtualizer.
 
-Package: io.compute.qemu
+Package: io.mc.qemu
 Version: 4.1.0+debug-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 639532
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.glib, io.compute.gnutls, io.compute.jpeg, io.compute.libpng, io.compute.libssh, io.compute.libusb, io.compute.lzo, io.compute.ncurses, io.compute.pixman, io.compute.vde
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
 Filename: ./Computate/qemu_4.1.0+debug-4_iphoneos-arm.deb
 Size: 86119804
 MD5sum: 3845554830954ffff42a23c5a81d4f5e
@@ -2185,13 +2185,13 @@ Section: Utilities
 Description: Generic and open source machine emulator and virtualizer (debug build).
   Generic and open source machine emulator and virtualizer.
 
-Package: io.compute.qemu
+Package: io.mc.qemu
 Version: 4.1.0+debug-5
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 639880
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.glib, io.compute.gnutls, io.compute.jpeg, io.compute.libpng, io.compute.libssh, io.compute.libusb, io.compute.lzo, io.compute.ncurses, io.compute.pixman, io.compute.vde
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
 Filename: ./Computate/qemu_4.1.0+debug-5_iphoneos-arm.deb
 Size: 86289866
 MD5sum: 5ff96b68393ab9b8c933d1c77a0cbd85
@@ -2201,13 +2201,13 @@ Section: Utilities
 Description: Generic and open source machine emulator and virtualizer (debug build).
   Generic and open source machine emulator and virtualizer.
 
-Package: io.compute.qemu
+Package: io.mc.qemu
 Version: 4.1.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 501816
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.glib, io.compute.gnutls, io.compute.jpeg, io.compute.libpng, io.compute.libssh, io.compute.libusb, io.compute.lzo, io.compute.ncurses, io.compute.pixman, io.compute.vde
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
 Filename: ./Computate/qemu_4.1.0-1_iphoneos-arm.deb
 Size: 62823524
 MD5sum: 0a1760e03d720ddec2c0d8490772b6f4
@@ -2217,13 +2217,13 @@ Section: Utilities
 Description: x86 and PowerPC Emulator
 Name: qemu
 
-Package: io.compute.readline
+Package: io.mc.readline
 Version: 8.0.0-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 560
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses
+Depends: io.mc.ncurses
 Filename: ./Computate/readline_8.0.0-3_iphoneos-arm.deb
 Size: 147724
 MD5sum: a7d9a3dddc11b0a1a036d00f6de85bd9
@@ -2233,13 +2233,13 @@ Section: Utilities
 Description: Library for command-line editing
 Name: readline
 
-Package: io.compute.readline
+Package: io.mc.readline
 Version: 8.0.0-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 544
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses
+Depends: io.mc.ncurses
 Filename: ./Computate/readline_8.0.0-4_iphoneos-arm.deb
 Size: 147106
 MD5sum: 0afd893ea705f4d5ca31256930d10345
@@ -2249,13 +2249,13 @@ Section: Utilities
 Description: Library for command-line editing
 Name: readline
 
-Package: io.compute.s-lang
+Package: io.mc.s-lang
 Version: 2.3.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 2904
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpng
+Depends: io.mc.libpng
 Filename: ./Computate/s-lang_2.3.2-1_iphoneos-arm.deb
 Size: 457426
 MD5sum: cb723abb29807b558c205951b3e88902
@@ -2265,13 +2265,13 @@ Section: Utilities
 Description: Library for creating multi-platform software
 Name: s-lang
 
-Package: io.compute.snort
+Package: io.mc.snort
 Version: 2.9.14.1-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 4720
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.daq, io.compute.libdnet, io.compute.libpcap, io.compute.nghttp2, io.compute.openssl, io.compute.pcre
+Depends: io.mc.daq, io.mc.libdnet, io.mc.libpcap, io.mc.nghttp2, io.mc.openssl, io.mc.pcre
 Filename: ./Computate/snort_2.9.14.1-2_iphoneos-arm.deb
 Size: 831256
 MD5sum: 764ecbb135de4317124b2eff8a2b2991
@@ -2281,13 +2281,13 @@ Section: Utilities
 Description: Flexible Network Intrusion Detection System
 Name: snort
 
-Package: io.compute.snort
+Package: io.mc.snort
 Version: 2.9.14.1-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 4704
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.daq, io.compute.libdnet, io.compute.libpcap, io.compute.nghttp2, io.compute.openssl, io.compute.pcre
+Depends: io.mc.daq, io.mc.libdnet, io.mc.libpcap, io.mc.nghttp2, io.mc.openssl, io.mc.pcre
 Filename: ./Computate/snort_2.9.14.1-3_iphoneos-arm.deb
 Size: 822810
 MD5sum: e8dd71652cfd2cbe149222dee4330917
@@ -2297,13 +2297,13 @@ Section: Utilities
 Description: Flexible Network Intrusion Detection System
 Name: snort
 
-Package: io.compute.sqlite
+Package: io.mc.sqlite
 Version: 3.29.0-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3980
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/sqlite_3.29.0-2_iphoneos-arm.deb
 Size: 945634
 MD5sum: 1ded25f92286d5b0b7626d076af10add
@@ -2313,13 +2313,13 @@ Section: Utilities
 Description: Command-line interface for SQLite
 Name: sqlite
 
-Package: io.compute.sqlite
+Package: io.mc.sqlite
 Version: 3.29.0-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 3964
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.readline
+Depends: io.mc.readline
 Filename: ./Computate/sqlite_3.29.0-3_iphoneos-arm.deb
 Size: 939980
 MD5sum: 78a82192fe1d9ab8a5839817e562a7ce
@@ -2329,7 +2329,7 @@ Section: Utilities
 Description: Command-line interface for SQLite
 Name: sqlite
 
-Package: io.compute.sshpass
+Package: io.mc.sshpass
 Version: 1.06-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -2346,13 +2346,13 @@ Priority: optional
 Description: Non-interactive ssh password authentication
 Name: sshpass
 
-Package: io.compute.sstp-client
+Package: io.mc.sstp-client
 Version: 1.0.12-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 184
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libevent, io.compute.openssl
+Depends: io.mc.libevent, io.mc.openssl
 Filename: ./Computate/sstp-client_1.0.12-1_iphoneos-arm.deb
 Size: 31824
 MD5sum: afbdb00a42381e84be45b08ec22b30ce
@@ -2362,13 +2362,13 @@ Section: Utilities
 Description: SSTP (Microsofts Remote Access Solution for PPP over SSL) client
 Name: sstp-client
 
-Package: io.compute.tcpdump
+Package: io.mc.tcpdump
 Version: 4.9.2-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1812
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpcap, io.compute.openssl
+Depends: io.mc.libpcap, io.mc.openssl
 Filename: ./Computate/tcpdump_4.9.2-2_iphoneos-arm.deb
 Size: 283102
 MD5sum: 2abe9dc2693e9af5a54e8e348fce9343
@@ -2378,13 +2378,13 @@ Section: Utilities
 Description: Command-line packet analyzer
 Name: tcpdump
 
-Package: io.compute.tcpdump
+Package: io.mc.tcpdump
 Version: 4.9.2-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1780
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libpcap, io.compute.openssl
+Depends: io.mc.libpcap, io.mc.openssl
 Filename: ./Computate/tcpdump_4.9.2-3_iphoneos-arm.deb
 Size: 280054
 MD5sum: 024ede701225ca4ca1d3ff391c7b56cb
@@ -2394,13 +2394,13 @@ Section: Utilities
 Description: Command-line packet analyzer
 Name: tcpdump
 
-Package: io.compute.tcpflow
+Package: io.mc.tcpflow
 Version: 1.5.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 740
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.boost, io.compute.libpcap, io.compute.openssl
+Depends: io.mc.boost, io.mc.libpcap, io.mc.openssl
 Filename: ./Computate/tcpflow_1.5.0-1_iphoneos-arm.deb
 Size: 188328
 MD5sum: 158777efffa19dbefbbe91388c80bfd3
@@ -2410,7 +2410,7 @@ Section: Utilities
 Description: TCP flow recorder
 Name: tcpflow
 
-Package: io.compute.tcsh
+Package: io.mc.tcsh
 Version: 6.21.00-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -2425,13 +2425,13 @@ Section: Utilities
 Description: Enhanced, fully compatible version of the Berkeley C shell
 Name: tcsh
 
-Package: io.compute.tmux
+Package: io.mc.tmux
 Version: 2.9a-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 664
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libevent, io.compute.ncurses
+Depends: io.mc.libevent, io.mc.ncurses
 Filename: ./Computate/tmux_2.9a-1_iphoneos-arm.deb
 Size: 220732
 MD5sum: 4b3b2fdb4e2fa56f7167e4f0fef99931
@@ -2441,13 +2441,13 @@ Section: Utilities
 Description: Terminal multiplexer
 Name: tmux
 
-Package: io.compute.tor
+Package: io.mc.tor
 Version: 0.4.1.5-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 11204
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libevent, io.compute.libscrypt, io.compute.openssl, io.compute.xz
+Depends: io.mc.libevent, io.mc.libscrypt, io.mc.openssl, io.mc.xz
 Filename: ./Computate/tor_0.4.1.5-3_iphoneos-arm.deb
 Size: 1985844
 MD5sum: ed469b4c3d00199e7c03927c7cd22807
@@ -2457,13 +2457,13 @@ Section: Networking
 Description: Anonymizing overlay network for TCP
 Name: tor
 
-Package: io.compute.tor
+Package: io.mc.tor
 Version: 0.4.1.5-4
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 11188
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libevent, io.compute.libscrypt, io.compute.openssl, io.compute.xz
+Depends: io.mc.libevent, io.mc.libscrypt, io.mc.openssl, io.mc.xz
 Filename: ./Computate/tor_0.4.1.5-4_iphoneos-arm.deb
 Size: 1987302
 MD5sum: d54fe00669d7f89a3cccc6edd4bd26c2
@@ -2473,13 +2473,13 @@ Section: Networking
 Description: Anonymizing overlay network for TCP
 Name: tor
 
-Package: io.compute.transmission-cli
+Package: io.mc.transmission-cli
 Version: 2.94-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 4344
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.curl, io.compute.libevent
+Depends: io.mc.curl, io.mc.libevent
 Filename: ./Computate/transmission-cli_2.94-1_iphoneos-arm.deb
 Size: 638186
 MD5sum: 26a1f1c1882d3b6c694750292c274558
@@ -2489,13 +2489,13 @@ Section: Utilities
 Description: Lightweight BitTorrent client
 Name: transmission-cli
 
-Package: io.compute.unbound
+Package: io.mc.unbound
 Version: 1.9.2-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 4
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libevent, io.compute.openssl
+Depends: io.mc.libevent, io.mc.openssl
 Filename: ./Computate/unbound_1.9.2-2_iphoneos-arm.deb
 Size: 644
 MD5sum: 0e6658bb0f7a8df761daf8427c870637
@@ -2505,13 +2505,13 @@ Section: Utilities
 Description: Validating, recursive, caching DNS resolver
 Name: unbound
 
-Package: io.compute.usbmuxd
+Package: io.mc.usbmuxd
 Version: 1.0.10-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 112
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libimobiledevice, io.compute.libplist, io.compute.libusb, io.compute.libusbmuxd
+Depends: io.mc.libimobiledevice, io.mc.libplist, io.mc.libusb, io.mc.libusbmuxd
 Filename: ./Computate/usbmuxd_1.0.10-2_iphoneos-arm.deb
 Size: 26876
 MD5sum: 3c42c812f058aec7d5263e1ddeabc7d5
@@ -2521,13 +2521,13 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
-Package: io.compute.usbmuxd
+Package: io.mc.usbmuxd
 Version: 1.0.10-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 112
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libimobiledevice, io.compute.libplist, io.compute.libusb, io.compute.libusbmuxd
+Depends: io.mc.libimobiledevice, io.mc.libplist, io.mc.libusb, io.mc.libusbmuxd
 Filename: ./Computate/usbmuxd_1.0.10-3_iphoneos-arm.deb
 Size: 26824
 MD5sum: 4071327f14f46d23a6caded46d82eca5
@@ -2537,7 +2537,7 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
-Package: io.compute.vde
+Package: io.mc.vde
 Version: 2.3.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -2552,13 +2552,13 @@ Section: Networking
 Description: Ethernet compliant virtual network
 Name: vde
 
-Package: io.compute.webp
+Package: io.mc.webp
 Version: 1.0.3-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 1300
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.jpeg, io.compute.libpng, io.compute.libtiff
+Depends: io.mc.jpeg, io.mc.libpng, io.mc.libtiff
 Filename: ./Computate/webp_1.0.3-3_iphoneos-arm.deb
 Size: 257582
 MD5sum: bc118dcc72c27274b32b139c2c58c737
@@ -2568,13 +2568,13 @@ Section: Utilities
 Description: Image format providing lossless and lossy compression for web images
 Name: webp
 
-Package: io.compute.wget
+Package: io.mc.wget
 Version: 1.20.3-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 540
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libidn2, io.compute.openssl
+Depends: io.mc.libidn2, io.mc.openssl
 Filename: ./Computate/wget_1.20.3-2_iphoneos-arm.deb
 Size: 201810
 MD5sum: be3e60ceabbb9d26991e05a8b8524261
@@ -2584,13 +2584,13 @@ Section: Utilities
 Description: Internet file retriever
 Name: wget
 
-Package: io.compute.wget
+Package: io.mc.wget
 Version: 1.20.3-3
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 540
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libidn2, io.compute.openssl
+Depends: io.mc.libidn2, io.mc.openssl
 Filename: ./Computate/wget_1.20.3-3_iphoneos-arm.deb
 Size: 200036
 MD5sum: d9b86ee2f594707315fe4e6fc7ed31a3
@@ -2600,13 +2600,13 @@ Section: Utilities
 Description: Internet file retriever
 Name: wget
 
-Package: io.compute.whois
+Package: io.mc.whois
 Version: 5.5.2-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 132
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.libidn2
+Depends: io.mc.libidn2
 Filename: ./Computate/whois_5.5.2-1_iphoneos-arm.deb
 Size: 27486
 MD5sum: 2fd35155d25dc86b13688e7b84785609
@@ -2616,12 +2616,12 @@ Section: Utilities
 Description: Lookup tool for domain names and other internet resources
 Name: whois
 
-Package: io.compute.wine
+Package: io.mc.wine
 Version: 4.2.0-1
 Architecture: iphoneos-arm
 Installed-Size: 324116
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.freetype, io.compute.jpeg, io.compute.libpng
+Depends: io.mc.freetype, io.mc.jpeg, io.mc.libpng
 Filename: ./Computate/wine_4.2.0-1_iphoneos-arm.deb
 Size: 25665784
 MD5sum: 2df950230fe9b2c9621bc4b1d1a5da23
@@ -2630,13 +2630,13 @@ SHA256: 36002970e6d55a12eabb54f7055c06c1edbd325eb615a2b602341e978852bcc6
 Description: Run Windows applications without a copy of Microsoft Windows
 Name: wine
 
-Package: io.compute.wine
+Package: io.mc.wine
 Version: 4.2.0-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 348932
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.freetype, io.compute.jpeg, io.compute.libpng
+Depends: io.mc.freetype, io.mc.jpeg, io.mc.libpng
 Filename: ./Computate/wine_4.2.0-2_iphoneos-arm.deb
 Size: 27591754
 MD5sum: 2bd54ec1791b38aa6051856e195e1acd
@@ -2646,7 +2646,7 @@ Section: Utilities
 Description: Run Windows applications without a copy of Microsoft Windows
 Name: wine
 
-Package: io.compute.xz
+Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
@@ -2661,13 +2661,13 @@ Section: Utilities
 Description: General-purpose data compression with high compression ratio
 Name: xz
 
-Package: io.compute.yara
+Package: io.mc.yara
 Version: 3.10.0-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 676
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.jansson, io.compute.libmagic, io.compute.openssl-1.1
+Depends: io.mc.jansson, io.mc.libmagic, io.mc.openssl-1.1
 Filename: ./Computate/yara_3.10.0-1_iphoneos-arm.deb
 Size: 144574
 MD5sum: 8a48625185c54580c15ea9535911bca5
@@ -2677,13 +2677,13 @@ Section: Utilities
 Description: Malware identification and classification tool
 Name: yara
 
-Package: io.compute.zsh
+Package: io.mc.zsh
 Version: 5.7.1-1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 9864
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.compute.ncurses, io.compute.pcre
+Depends: io.mc.ncurses, io.mc.pcre
 Filename: ./Computate/zsh_5.7.1-1_iphoneos-arm.deb
 Size: 1480252
 MD5sum: 71aa032e8824d001179c882d612e7877
