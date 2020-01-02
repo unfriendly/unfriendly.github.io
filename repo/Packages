@@ -2111,7 +2111,7 @@ Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 55104
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
+Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
 Filename: ./Computate/python_3.7.4-3_iphoneos-arm.deb
 Size: 10137382
 MD5sum: 85985b5bf5f5e10f47f2d8ec77da0c0c
@@ -2127,7 +2127,7 @@ Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 55104
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
+Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
 Filename: ./Computate/python_3.7.4-4_iphoneos-arm.deb
 Size: 10135482
 MD5sum: 0410e78f75c87bfb802a09a591975f10
