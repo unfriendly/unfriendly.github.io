@@ -2137,17 +2137,18 @@ Section: Utilities
 Description: Interpreted, interactive, object-oriented programming language
 Name: python
 
-Package: com.mc.pysslfixnew
+Package: io.mc.pysslfixnew
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
 Filename: ./Computate/openssl_python_fix_new.deb
 Size: 854252
-MD5sum: 561cc8b2f46b16a5c74ee6c16cc04026
-SHA1: d4cc7d5bab7cdb1766486a5554862fa24948ee85
-SHA256: bda6a581cf87ff4dffb1237a4691cae14de015a54b33ec69d66899d72fe227f6
-Description: fix lib not found
-Author: Compute <compute@rawtechnique.com> and Lucas Jackson <lucasjackson5815@gmail.com>
+MD5sum: D41D8CD98F00B204E9800998ECF8427E
+SHA1: DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+SHA256: E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855
+Section: Utilities
+Description: fix python lib not found
 Name: Python SSL Fix
 
 Package: io.mc.qemu
