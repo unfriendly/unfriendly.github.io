@@ -643,6 +643,21 @@ Section: Utilities
 Description: Small SSH server/client for POSIX-based system
 Name: dropbear
 
+Package: io.mc.eggshell
+Version: 3.0.1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: python (>=2.7.8-1)
+Filename: ./Computate/eggshell-update.deb
+Size: 2705054
+MD5sum: 4a640d6ef31635bc1e9454c15c02f2ca
+SHA1: aa8a807c67b51176f93fe012a210778421091c78
+SHA256: 20466968393c62a5b4e17fd098145e4d14af8938f7e2832be2ab71fd4476fc84
+Section: Utilities
+Description: iOS/macOS/Linux pentest tool
+Name: eggshell
+
 Package: io.mc.ettercap
 Version: 0.8.3-4
 Architecture: iphoneos-arm
