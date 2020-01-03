@@ -644,16 +644,16 @@ Description: Small SSH server/client for POSIX-based system
 Name: dropbear
 
 Package: io.mc.eggshell
-Version: 3.0.1
+Version: 3.0.2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: python (>=2.7.8-1)
-Filename: ./Computate/eggshell-update.deb
-Size: 2705054
-MD5sum: 4a640d6ef31635bc1e9454c15c02f2ca
-SHA1: aa8a807c67b51176f93fe012a210778421091c78
-SHA256: 20466968393c62a5b4e17fd098145e4d14af8938f7e2832be2ab71fd4476fc84
+Filename: ./Computate/eggshell_3.0.2_iphoneos-arm.deb
+Size: 2705060
+MD5sum: d0dec66a393c94034aa1a9279ec47c4f
+SHA1: 271183078e2dbfbe0346e1ecb48c2972c81ebd5b
+SHA256: 79047b0fe8b93ca519ab9c905162f85880e790e3504048b678ddb79cdc3d96f3
 Section: Utilities
 Description: iOS/macOS/Linux pentest tool
 Name: eggshell
