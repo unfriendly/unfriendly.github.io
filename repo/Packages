@@ -2681,7 +2681,7 @@ Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 676
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.mc.jansson, io.mc.libmagic, io.mc.openssl-1.1
+Depends: io.mc.jansson, io.mc.libmagic
 Filename: ./Computate/yara_3.10.0-1_iphoneos-arm.deb
 Size: 144574
 MD5sum: 8a48625185c54580c15ea9535911bca5
