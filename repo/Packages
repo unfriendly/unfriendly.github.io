@@ -2105,6 +2105,20 @@ Priority: optional
 Description: Python/Objective-C connection library
 Name: PyObjC
 
+Package: io.mc.pysslfixnew
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/openssl_python_fix_new.deb
+Size: 854220
+MD5sum: 5BB3D39DDDF99381BE7E48ED4CB35197
+SHA1: 382A7FE2765A7A598E2A84786F6173EA17B05F4B
+SHA256: 8F031F6C87B13051BB954BA46DA8E4FA17F201AFF7AEC4BE26F3E66B7045959C
+Section: Utilities
+Description: fix python lib not found
+Name: pysslfixnew
+
 Package: io.mc.python
 Version: 3.7.4-3
 Architecture: iphoneos-arm
@@ -2136,20 +2150,6 @@ SHA256: 21318e61b01e47c8543365438c3d2d0c697978416cf473dad3eb30f0abb8efa2
 Section: Utilities
 Description: Interpreted, interactive, object-oriented programming language
 Name: python
-
-Package: io.mc.pysslfixnew
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Compute <compute@RawTechnique.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: ./Computate/openssl_python_fix_new.deb
-Size: 854252
-MD5sum: D41D8CD98F00B204E9800998ECF8427E
-SHA1: DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
-SHA256: E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855
-Section: Utilities
-Description: fix python lib not found
-Name: Python SSL Fix
 
 Package: io.mc.qemu
 Version: 4.1.0+debug-1

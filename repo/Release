@@ -1,7 +1,7 @@
 Origin: Compute
 Label: Compute/Homebrew
 Suite: stable
-Version: 2.2-Final
+Version: 2.5-Final
 Architectures: iphoneos-arm
 Components: main
 Codename: Computate
