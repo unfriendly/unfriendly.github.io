@@ -1861,7 +1861,7 @@ Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 53168
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.mc.c-ares, io.mc.nghttp2, io.mc.openssl-1.1
+Depends: io.mc.c-ares, io.mc.nghttp2
 Filename: ./Computate/node_12.9.0-1_iphoneos-arm.deb
 Size: 8173342
 MD5sum: 62dcdd47d862ce47ca714b3e844f3ab0
@@ -1878,11 +1878,11 @@ Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 53180
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: io.mc.c-ares, io.mc.nghttp2, io.mc.openssl-1.1
-Filename: ./Computate/node_12.9.0-3_iphoneos-arm.deb
-Size: 8158170
-MD5sum: 551b99d7114372e4ef903448a9a120a0
-SHA1: 3c40256b00c48073f823478e8c5af6caf888832f
-SHA256: 8187fa6f700118bc63ac153e58c733f44ed589c6a1e03369b2f06c6502918ade
+Filename: ./Computate/node_12.9.0-3_fix_iphoneos-arm.deb
+Size: 12644724
+MD5sum: E15BE0E9DAE9289F18C7C75B6E4F8D31
+SHA1: 211BD1C405E445EBC07356793253C7568FF374AB
+SHA256: 3339CCCD8ACF24B38C1AEFA3F2E10FAC1D80EDE69115F2EE273AFE844EE70EFB
 Section: Networking
 Description: Platform built on V8 to build network applications
 Name: node
@@ -2156,12 +2156,12 @@ Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 55104
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
-Filename: ./Computate/python_3.7.4-4_iphoneos-arm.deb
-Size: 10135482
-MD5sum: 0410e78f75c87bfb802a09a591975f10
-SHA1: 87c25f696045263fc6e32f8c0fcab2532ee68c91
-SHA256: 21318e61b01e47c8543365438c3d2d0c697978416cf473dad3eb30f0abb8efa2
+Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.readline, io.mc.sqlite, io.mc.xz
+Filename: ./Computate/python_3.7.4-4_fix_iphoneos-arm.deb
+Size: 14015728
+MD5sum: DFF3B848F5B0DA5F462CBF667631F2C0
+SHA1: CA151A53E6C48126F60447A8648E616CFF746D15
+SHA256: 960BA7B5AC94D522D8322555588FA42837A11E962EEE4047E129E30B93D581BF
 Section: Utilities
 Description: Interpreted, interactive, object-oriented programming language
 Name: python
