@@ -2682,11 +2682,11 @@ Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 676
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: io.mc.jansson, io.mc.libmagic
-Filename: ./Computate/yara_3.10.0-1_iphoneos-arm.deb
-Size: 144574
-MD5sum: 8a48625185c54580c15ea9535911bca5
-SHA1: 9f72de90d6da2bb0b49c3d7973512f6fe588cdb1
-SHA256: 612a4472c6cfb640ef18491f06ee41d50ba794fac6079f90c56ef20a8ada29b6
+Filename: ./Computate/yara_fixed_3.10.0-1_iphoneos-arm.deb
+Size: 346242
+MD5sum: 97e2682753749c83771b8e640768f91d
+SHA1: 9720edd297059f3f83c6ecb57a2e92549078e755
+SHA256: 05b77355ac8402784d63622e2f3b785745dbf1909018d1379b98ae7eb5d8c41d
 Section: Utilities
 Description: Malware identification and classification tool
 Name: yara
