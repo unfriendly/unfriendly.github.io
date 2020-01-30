@@ -107,6 +107,22 @@ Section: Utilities
 Description: Renders mathematical expressions as ASCII art
 Name: aamath
 
+Package: io.mc.aamath
+Version: 0.3-6
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 200
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.readline
+Filename: ./Computate/aamath_0.3-6_iphoneos-arm.deb
+Size: 40094
+MD5sum: fb1659f83ea4cf4f95cb6470fc565665
+SHA1: e4f445a9cc5538cd9071d008e111e1c171272c64
+SHA256: dc1a21f1d4bf17b5a3ab5195f11ca6bb6c17035b91d4f124767f754df08936eb
+Section: Utilities
+Description: Renders mathematical expressions as ASCII art
+Name: aamath
+
 Package: io.mc.adb
 Version: 10-1
 Architecture: iphoneos-arm
@@ -171,6 +187,22 @@ Section: Utilities
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Name: Android Debug Bridge
 
+Package: io.mc.adb
+Version: 10-5
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 876
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libusb, io.mc.openssl
+Filename: ./Computate/adb_10-5_iphoneos-arm.deb
+Size: 202358
+MD5sum: 705f5febcc0bc492eda3e9e7dcc7e5cf
+SHA1: a7aef94e453edb468f194aa5973fb9d3d8cc76f5
+SHA256: 93e5ea830117c084d9106d867fab1e9cfd74d82d7cce1f6b52c3501009aec745
+Section: Utilities
+Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
+Name: Android Debug Bridge
+
 Package: io.mc.aircrack-ng
 Version: 1.5.2-1
 Architecture: iphoneos-arm
@@ -186,6 +218,21 @@ SHA256: 64d6226568895a91dc407718808c5aff097e32c6675803844ceac77bbc6b90f4
 Section: Utilities
 Description: Next-generation aircrack with lots of new features
 Name: aircrack-ng
+
+Package: io.mc.aom
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 14472
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/aom_1.0.0-1_iphoneos-arm.deb
+Size: 1485818
+MD5sum: fe57e05e39ff412f65357475aeb59f17
+SHA1: 996d6af6b6b7a218753fcdc35c67ff9fb0312ac9
+SHA256: eebaf90ad2bc937e5c88b3c687acfe549994f3d227ec3b90017decb957f9b2e5
+Section: Development
+Description: Codec library for encoding and decoding AV1 video streams
+Name: aom
 
 Package: io.mc.aria2
 Version: 1.34.0-2
@@ -231,6 +278,22 @@ Size: 799906
 MD5sum: 0aefdafdecd730c82159ae86c6bbf473
 SHA1: 2576dbaa999ba8191e464b583c6f9897b66b0bc3
 SHA256: 1f9ccb57bc69b5c3c9e89191d005241fe7049dc2c82c43cd6d5fb86bac5d1f02
+Section: Utilities
+Description: Download with resuming and segmented downloading
+Name: aria2
+
+Package: io.mc.aria2
+Version: 1.34.0-5
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3340
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libssh2, io.mc.libxml2, io.mc.openssl
+Filename: ./Computate/aria2_1.34.0-5_iphoneos-arm.deb
+Size: 800404
+MD5sum: 337d7edca7cc72853bc034705c619775
+SHA1: bea1d478091d1ddd542055fa90dafdbecd7e8f2c
+SHA256: 5fae444add5f4744863a8d104bf6a62ebae782860806c804a55bdae8f633375f
 Section: Utilities
 Description: Download with resuming and segmented downloading
 Name: aria2
@@ -378,6 +441,22 @@ Section: Utilities
 Description: Storage conversion and expression calculator
 Name: bcal
 
+Package: io.mc.bdw-gc
+Version: 8.0.4-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 628
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libatomic_ops
+Filename: ./Computate/bdw-gc_8.0.4-1_iphoneos-arm.deb
+Size: 130086
+MD5sum: 020a95fb5555a35b4694346314212f87
+SHA1: 7e1c2af2560255f3f3c9b3d590f8ca5660b2c939
+SHA256: fa1fc3fb3394b10321cb7eab2f9d06fd89564dbf3e3c66186a5c43ff0e516a2b
+Section: Utilities
+Description: Garbage collector for C and C++
+Name: bdw-gc
+
 Package: io.mc.bison
 Version: 3.4.2-1
 Architecture: iphoneos-arm
@@ -390,6 +469,22 @@ Size: 265516
 MD5sum: 71c4afb738804ca87783e3cf95171782
 SHA1: 340638d218a12d3e7d8a25d0a18f1163d4797cea
 SHA256: f5a104fc02f4f25549bea0d0b1df577cd6575f1e22fd0d5b163729d96d634df2
+Section: Utilities
+Description: Parser generator
+Name: bison
+
+Package: io.mc.bison
+Version: 3.4.2-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 1120
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.m4
+Filename: ./Computate/bison_3.4.2-2_iphoneos-arm.deb
+Size: 265274
+MD5sum: 2519ac6fd269d1cf85b428a8d245da8e
+SHA1: f34c80fdda4bb5b7f03d79daefdc8a98cef7e249
+SHA256: afaaeb12abf40210c816467b57bdaf0d8e14de8919eb7c4b55c3e44c517c73bc
 Section: Utilities
 Description: Parser generator
 Name: bison
@@ -466,6 +561,22 @@ Size: 468718
 MD5sum: 34e4707d0f2eb6e0a02ded2b487d1d1d
 SHA1: 279de48f722076b4051fcc724bfe6e8f39801899
 SHA256: e5956cf8973ae5f273684b6b24ff7081047b1756869059d47996594595db1c45
+Section: Development
+Description: Vector graphics library with cross-device output support
+Name: cairo
+
+Package: io.mc.cairo
+Version: 1.16.0-3
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 2196
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.fontconfig, io.mc.freetype, io.mc.glib, io.mc.libpng, io.mc.lzo, io.mc.pixman
+Filename: ./Computate/cairo_1.16.0-3_iphoneos-arm.deb
+Size: 468432
+MD5sum: 12bd2c726b0c12d4f4ac2743db82a455
+SHA1: 1e8e24e804562fb89885c53aec63b779174eccb6
+SHA256: 841d36663ac30966060fadc6954c046091d56e74d78b86ea413a5bdb81c425b7
 Section: Development
 Description: Vector graphics library with cross-device output support
 Name: cairo
@@ -613,6 +724,22 @@ Section: Utilities
 Description: Display user-friendly message boxes from shell scripts
 Name: dialog
 
+Package: io.mc.dialog
+Version: 1.3-20190728-6
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses
+Filename: ./Computate/dialog_1.3-20190728-6_iphoneos-arm.deb
+Size: 224996
+MD5sum: 7fb01078459aaf8e648238556ca7ff9d
+SHA1: d68b66d4ecd2eaad4a9b0932e25ed9e7d3fe5cb8
+SHA256: 9773485eb228b8265d1c809ced4fa1c5015695088aedff030c5039763144e557
+Section: Utilities
+Description: Display user-friendly message boxes from shell scripts
+Name: dialog
+
 Package: io.mc.diffutils
 Version: 3.7-1
 Architecture: iphoneos-arm
@@ -690,6 +817,22 @@ Section: Utilities
 Description: Multipurpose sniffer/interceptor/logger for switched LAN
 Name: ettercap
 
+Package: io.mc.ettercap
+Version: 0.8.3-6
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.curl, io.mc.geoip, io.mc.libnet, io.mc.libpcap, io.mc.ncurses, io.mc.openssl, io.mc.pcre
+Filename: ./Computate/ettercap_0.8.3-6_iphoneos-arm.deb
+Size: 689922
+MD5sum: 47ead7f98a6ad1cc51ea531d67ffed62
+SHA1: 321d53c0f3d61e6a116b6a11dd2d8cc9373032a1
+SHA256: 64cedaad5a993ba1e0aaa543d0fd1c325aea9f8819d2f84103bacc67493b709f
+Section: Utilities
+Description: Multipurpose sniffer/interceptor/logger for switched LAN
+Name: ettercap
+
 Package: io.mc.expat
 Version: 2.2.7-1
 Architecture: iphoneos-arm
@@ -704,6 +847,22 @@ SHA256: 886697500f50d7f892466938e8b3b19c5163f2bcd4b32971031c214927240867
 Section: Utilities
 Description: XML 1.0 parser
 Name: expat
+
+Package: io.mc.ffmpeg
+Version: 4.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 24880
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.aom, io.mc.fontconfig, io.mc.freetype, io.mc.frei0r, io.mc.gnutls, io.mc.lame, io.mc.libass, io.mc.libbluray, io.mc.libsoxr, io.mc.libvidstab, io.mc.libvorbis, io.mc.libvpx, io.mc.opencore-amr, io.mc.openjpeg, io.mc.opus, io.mc.rtmpdump, io.mc.rubberband, io.mc.sdl2, io.mc.snappy, io.mc.speex, io.mc.tesseract, io.mc.theora, io.mc.x264, io.mc.x265, io.mc.xvid, io.mc.xz
+Filename: ./Computate/ffmpeg_4.2.1-1_iphoneos-arm.deb
+Size: 7257938
+MD5sum: 013bc94073190e7f4fa99c5300c6bbcf
+SHA1: 0ebd37aa8ed4d5512564f7f7a47e9b06e408592b
+SHA256: efb0791838b5f6b26033c0e42d0b801ba2c28fdb16600fec93ad9430fb5ccc42
+Section: Utilities
+Description: Play, record, convert, and stream audio and video
+  Play, record, convert, and stream audio and video
 
 Package: io.mc.fish
 Version: 3.0.2-7
@@ -721,18 +880,82 @@ Section: Utilities
 Description: User-friendly command-line shell for UNIX-like operating systems
 Name: fish
 
+Package: io.mc.fish
+Version: 3.0.2-8
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 11556
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.pcre2
+Filename: ./Computate/fish_3.0.2-8_iphoneos-arm.deb
+Size: 1325234
+MD5sum: 3e9ca440d4e9075ed3321165be573b64
+SHA1: 60d2a923a825ddfd402566ce1ad5b6c73ab49282
+SHA256: c51848efaeb997ed8ea9311ec97a7295a8ee0c9ca959fea03f66a85ea6805c41
+Section: Utilities
+Description: User-friendly command-line shell for UNIX-like operating systems
+Name: fish
+
+Package: io.mc.flac
+Version: 1.3.3-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 1200
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libogg
+Filename: ./Computate/flac_1.3.3-1_iphoneos-arm.deb
+Size: 235608
+MD5sum: 638db481a6d6e295ff4051e37b7c5052
+SHA1: 244e2232e47436632f04ac29ecb9f5f09c98a6a1
+SHA256: 647c9e5652ff78c542cee68d651f208977e85be00ff8d2cd51def6b5687270b4
+Section: Utilities
+Description: Free lossless audio codec
+Name: flac
+
+Package: io.mc.fltk
+Version: 1.3.5-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 4644
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg, io.mc.jpeg, io.mc.libpng
+Filename: ./Computate/fltk_1.3.5-1_iphoneos-arm.deb
+Size: 935398
+MD5sum: a1a6de7692e337c82c8cb77940bc2a82
+SHA1: fbf1aa402dd47d4cdfb80f8ea78540140d606861
+SHA256: feba865d0cbeaf6bca71ea6c592c0897cf42cf000bc4b273059227d14f2194d9
+Section: Utilities
+Description: Cross-platform C++ GUI toolkit
+Name: fltk
+
 Package: io.mc.fontconfig
 Version: 2.13.1-2
 Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
-Installed-Size: 1080
+Installed-Size: 1068
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: io.mc.expat, io.mc.freetype
 Filename: ./Computate/fontconfig_2.13.1-2_iphoneos-arm.deb
-Size: 132496
-MD5sum: 9d4dbe306004608ae52ac9ac3bcee670
-SHA1: 89c235dfad5fa963f8aa88efaa3d64dcd900605b
-SHA256: 0b849bd867ba1bf707e17f6800bda26b719f7f6bfc58a55a53e6965bc86b6a2b
+Size: 131966
+MD5sum: 216fc7d7a8f1e6c32d45c3f2308fb4bd
+SHA1: 6016bf28bd46c4832e9bf673b19a392713b7c396
+SHA256: d14dd383502460476ffe327a1cc0d5e30a6ef322cd7d4776b860e5a2c848200c
+Section: Utilities
+Description: XML-based font configuration API for X Windows
+Name: fontconfig
+
+Package: io.mc.fontconfig
+Version: 2.13.1-4
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 1064
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.expat, io.mc.freetype
+Filename: ./Computate/fontconfig_2.13.1-4_iphoneos-arm.deb
+Size: 131550
+MD5sum: 057df35a88427c94e54b3664e9c3f912
+SHA1: 7ca09a25048e0eb9adbbca835dceb9e66f2523f1
+SHA256: fde224b7404e95374386f24eaf5ce8724635e2a3ab451241e6e8accbd20d2cf2
 Section: Utilities
 Description: XML-based font configuration API for X Windows
 Name: fontconfig
@@ -752,6 +975,36 @@ SHA256: 4ba429f655b538978114a3c1f03300619db548e4a25b46a0702d7372467f3376
 Section: Development
 Description: Software library to render fonts
 Name: freetype
+
+Package: io.mc.frei0r
+Version: 1.6.1-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 6728
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/frei0r_1.6.1-1_iphoneos-arm.deb
+Size: 321386
+MD5sum: ea7d9cbb299f630e0fc59ce8e854e057
+SHA1: dbabf57b4832a7fc4c764f862b454512212f5016
+SHA256: dba0b23bd60af745353f8f949c12cab7a693ae19803b2cd858a4a28c2efc438d
+Section: Utilities
+Description: Minimalistic plugin API for video effects
+Name: frei0r
+
+Package: io.mc.fribidi
+Version: 1.0.7-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 324
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/fribidi_1.0.7-1_iphoneos-arm.deb
+Size: 39576
+MD5sum: 3e0e61d9c882abd6168bf36fc6380d1b
+SHA1: 39e5d241d1390211e42a3a87c3de44d826b54081
+SHA256: a7b8586179ef542c9959571160fcfbc3b1748c583487957acf11f3936e6e022d
+Section: Utilities
+Description: Implementation of the Unicode BiDi algorithm
+Name: fribidi
 
 Package: io.mc.gdbm
 Version: 1.18.1-2
@@ -861,6 +1114,22 @@ Section: Development
 Description: Core application library for C
 Name: glib
 
+Package: io.mc.glib
+Version: 2.62.2-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 8268
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.gettext, io.mc.libffi, io.mc.pcre
+Filename: ./Computate/glib_2.62.2-2_iphoneos-arm.deb
+Size: 1388682
+MD5sum: 66fcec68470c290e582a916f302593d3
+SHA1: cde8116c2ad5356889a89cdd71f367733ea03ff6
+SHA256: e4ee24ff396f4b4af67d506d50d1ba0cebdb58315298e270e84431d0d2b97e50
+Section: Development
+Description: Core application library for C
+Name: glib
+
 Package: io.mc.gmp
 Version: 6.1.2-1
 Architecture: iphoneos-arm
@@ -892,6 +1161,21 @@ Section: Utilities
 Description: GNU Transport Layer Security (TLS) Library
 Name: gnutls
 
+Package: io.mc.go
+Version: 1.13-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 352776
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/go_1.13-2_iphoneos-arm.deb
+Size: 64427236
+MD5sum: a6bb56d907bb5be887282ec7e0254554
+SHA1: 7d2857e9231b58eb4224a3017a7cfba37facb9b0
+SHA256: a922ca732572af35313bec46dc135550f56fc0b2d19f72f0b6f7de7cda6e3993
+Section: Utilities
+Description: Open source programming language to build simple/reliable/efficient software
+Name: go
+
 Package: io.mc.graphite2
 Version: 1.3.13-1
 Architecture: iphoneos-arm
@@ -919,6 +1203,22 @@ Size: 681388
 MD5sum: d11ec660647ce5f93b2d82b876fdee3f
 SHA1: 4979797267fd370ad4c8452558b549a18639f772
 SHA256: fbe5e6aa9a484f18e4f0840212a534c44e4bd7e3ffb07c675a469c56eeefb3b4
+Section: Utilities
+Description: OpenType text shaping engine
+Name: harfbuzz
+
+Package: io.mc.harfbuzz
+Version: 2.5.3-3
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 5608
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.cairo, io.mc.freetype, io.mc.glib, io.mc.graphite2, io.mc.icu4c
+Filename: ./Computate/harfbuzz_2.5.3-3_iphoneos-arm.deb
+Size: 680518
+MD5sum: a12e9cc3e0ca77248b521b1e069d87dc
+SHA1: d28a27e065d1d8768a0f1d2c9c38a41d6c130e63
+SHA256: 5cb5a653e496b1441ab92a2a86dd7811413d88f47f5f8f2bf02e06a11eda543d
 Section: Utilities
 Description: OpenType text shaping engine
 Name: harfbuzz
@@ -1047,6 +1347,93 @@ Section: Development
 Description: Image manipulation library
 Name: jpeg
 
+Package: io.mc.jpeg-turbo
+Version: 2.0.2-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 2264
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/jpeg-turbo_2.0.2-1_iphoneos-arm.deb
+Size: 258624
+MD5sum: 7ba7ecc572c6bd4bd32e9b72a92da51e
+SHA1: 3ad93b26dd82216521fbfeee41cc49a809d4237e
+SHA256: a66456f9cfa78e6709755ea2c6fb35911de6589f49dc5f65e1289c85d7a3e1f3
+Section: Utilities
+Description: JPEG image codec that aids compression and decompression
+Name: jpeg-turbo
+
+Package: io.mc.jpeg-turbo
+Version: 2.0.2-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 2528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: jpeg
+Replaces: jpeg
+Provides: jpeg
+Filename: ./Computate/jpeg-turbo_2.0.2-2_iphoneos-arm.deb
+Size: 324934
+MD5sum: 699a4a1556f720899176cc4e8d365b14
+SHA1: 0212fc7466d4d39090b0cfc71033d218f8e69778
+SHA256: f5c32899dd26254d0dfa89c814431740be9207d10fa2cde3cea283eb36ca3c29
+Section: Utilities
+Description: JPEG image codec that aids compression and decompression
+Name: jpeg-turbo
+
+Package: io.mc.jpeg-turbo
+Version: 2.0.2-3
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 2528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: io.mc.jpeg
+Replaces: io.mc.jpeg
+Provides: io.mc.jpeg
+Filename: ./Computate/jpeg-turbo_2.0.2-3_iphoneos-arm.deb
+Size: 324864
+MD5sum: d00fe9d44f3ce5656a16fb27efac9909
+SHA1: b2516318a0039afd1be1847c278a6ef9b5010940
+SHA256: ceb0baa7d8a439fd277438c601e369376176bf333a7be70aefe377e8fda9de79
+Section: Utilities
+Description: JPEG image codec that aids compression and decompression
+Name: jpeg-turbo
+
+Package: io.mc.jpeg-turbo
+Version: 2.0.2-4
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 2528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: io.mc.jpeg
+Replaces: io.mc.jpeg
+Provides: io.mc.jpeg
+Filename: ./Computate/jpeg-turbo_2.0.2-4_iphoneos-arm.deb
+Size: 324810
+MD5sum: c6db5086ba7e24bb430c749d09f83f9c
+SHA1: f7c2a23d78cb734b72076c8d9cc7f5298d4e848a
+SHA256: 672369ca17026c6ffabcd41fa64fcc2f600514fa803f494ddffd979e4b902160
+Section: Utilities
+Description: JPEG image codec that aids compression and decompression
+Name: jpeg-turbo
+
+Package: io.mc.jpeg-turbo
+Version: 2.0.2-5
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 2528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: io.mc.jpeg
+Replaces: io.mc.jpeg
+Provides: io.mc.jpeg
+Filename: ./Computate/jpeg-turbo_2.0.2-5_iphoneos-arm.deb
+Size: 324838
+MD5sum: 0c86e7f6846d5b10330cec2cccf01c31
+SHA1: 52a1200bbf31666310b507f1702f4e5fc32ca445
+SHA256: 49e882155b442d5ed488a3bbe628609914ed646fb6b4150a2fbd348416d772c0
+Section: Utilities
+Description: JPEG image codec that aids compression and decompression
+Name: jpeg-turbo
+
 Package: io.mc.jq
 Version: 1.6-2
 Architecture: iphoneos-arm
@@ -1077,6 +1464,21 @@ SHA256: 255e786b78461b7fada5adcd4eb2364d6c82acf1e1af73ad63abef69e797e918
 Section: Development
 Description: Portable low-level networking library
 Name: libdnet
+
+Package: io.mc.libepoxy
+Version: 1.5.4-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3336
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/libepoxy_1.5.4-1_iphoneos-arm.deb
+Size: 298610
+MD5sum: 3154e54cfa3400cd5141ec9c2a4aea9d
+SHA1: b274b07f2ab930aa2d6e3f7e3b9e19986c62063a
+SHA256: 2be0909d71751260e6b6973045539e5e64d1028dfa269540b5cab34e7f01dba4
+Section: Utilities
+Description: Library for handling OpenGL function pointer management
+Name: libepoxy
 
 Package: io.mc.libev
 Version: 4.27-1
@@ -1494,6 +1896,54 @@ Section: Development
 Description: Multi-platform support library with a focus on asynchronous I/O
 Name: libuv
 
+Package: io.mc.libxau
+Version: 1.0.9-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 68
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xorgproto
+Filename: ./Computate/libXau_1.0.9-1_iphoneos-arm.deb
+Size: 5884
+MD5sum: 8aef1806e7b7db427140991e42d519f5
+SHA1: 12d6dea8c6fef960d011485e9bfd5023d9ffa9bf
+SHA256: 53103f2ac198ef32945ad6e8e2d573fc0492330ace16506a4b9e1998bc2e58b0
+Section: Utilities
+Description: Implements the X11 Authorization Protocol
+Name: libXau
+
+Package: io.mc.libxcb
+Version: 1.13.1-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 4024
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libXau, io.mc.libXdmcp, io.mc.xcb-proto
+Filename: ./Computate/libxcb_1.13.1-1_iphoneos-arm.deb
+Size: 284860
+MD5sum: d5e7234ced41e2c54d53fe768ec52ad1
+SHA1: c29998b4c030daa4745544b8461e7c20df11414e
+SHA256: 6433a4ab5f9606ae5f6a017c5460d9256abe5316b609ca83311123170998abd0
+Section: Utilities
+Description: Provides a interface to the X Window System protocol
+Name: libxcb
+
+Package: io.mc.libxdmcp
+Version: 1.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 72
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xorgproto
+Filename: ./Computate/libXdmcp_1.1.3-1_iphoneos-arm.deb
+Size: 9594
+MD5sum: 3a101efca69c860f38c7f3ff9d69d740
+SHA1: c025ff305bb35ad7f8cef46536482d4fccb74a37
+SHA256: bf6d55d83a26fde511827567627357c027d02782564cae074f5b5052a4c8ed05
+Section: Utilities
+Description: Implements the X Display Manager Control Protocol
+Name: libXdmcp
+
 Package: io.mc.libxml2
 Version: 2.9.9-1
 Architecture: iphoneos-arm
@@ -1664,6 +2114,22 @@ SHA256: 572adcdda17be0eb776a95a5cd74ada8482c054cf93b95f74f59800fd29202e1
 Section: Utilities
 Description: Command-line client for Mega.co.nz
 Name: megatools
+
+Package: io.mc.mesa
+Version: 19.1.4-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 19092
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg, io.mc.expat, io.mc.gettext
+Filename: ./Computate/mesa_19.1.4-1_iphoneos-arm.deb
+Size: 2587140
+MD5sum: 7bcf698355eecf81a49568025a522f6e
+SHA1: 8b3cf8eb50d0ac245883a3c85c1f27a473de3f7e
+SHA256: e5cc5df5dec9e565df164e821c80206e7855b13f30754a6593f1283e65af3e10
+Section: Utilities
+Description: Graphics Library
+Name: Mesa
 
 Package: io.mc.midnight-commander
 Version: 4.8.22-1
@@ -2011,6 +2477,21 @@ Section: Utilities
 Description: Cryptography and SSL/TLS Toolkit
 Name: openssl@1.1
 
+Package: io.mc.openssl-1.1
+Version: 1.1.1c-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3040
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/openssl@1.1_1.1.1c-2_iphoneos-arm.deb
+Size: 1087238
+MD5sum: 977ad62eae63ea982da904d11fd31f66
+SHA1: 2b08c39b2bf9e994645b2b6c450eb7f5b451b273
+SHA256: 94610f24fb2a8987544fa066c16b96017ca25cfe5c73c7396ee5a97ebd9de012
+Section: Utilities
+Description: Cryptography and SSL/TLS Toolkit
+Name: openssl@1.1
+
 Package: io.mc.p11-kit
 Version: 0.23.16.1-3
 Architecture: iphoneos-arm
@@ -2226,6 +2707,38 @@ Size: 86289866
 MD5sum: 5ff96b68393ab9b8c933d1c77a0cbd85
 SHA1: d293b831f7e3c91feb3c748070ea3665afc25884
 SHA256: 4f6b6b36872d25980ac2d1ac1fa692ad99ceaecf228d3b6175dfffb50904b48a
+Section: Utilities
+Description: Generic and open source machine emulator and virtualizer (debug build).
+  Generic and open source machine emulator and virtualizer.
+
+Package: io.mc.qemu
+Version: 4.1.0+debug-6
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 715584
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
+Filename: ./Computate/qemu_4.1.0+debug-6_iphoneos-arm.deb
+Size: 97242778
+MD5sum: ae2a9a479ba031433c18718ecae8a2d8
+SHA1: b63db9c2b500b01af816ae99f59d6fe885ddf727
+SHA256: ea4507d701f44cb4e76e81a96530589778dd8cb4ca01cf960aee9c5057e7124e
+Section: Utilities
+Description: Generic and open source machine emulator and virtualizer (debug build).
+  Generic and open source machine emulator and virtualizer.
+
+Package: io.mc.qemu
+Version: 4.1.0+debug-7
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 252860
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
+Filename: ./Computate/qemu_4.1.0+debug-7_iphoneos-arm.deb
+Size: 17570984
+MD5sum: f5a46b87aa1f4ea67322ca8237d81969
+SHA1: ec3ce1e7eee119812791805c386a2a92ef3f3440
+SHA256: cc91aa5168463d4cb4637578e9424bc079c0a6bab150869ea10d9b0c405e7184
 Section: Utilities
 Description: Generic and open source machine emulator and virtualizer (debug build).
   Generic and open source machine emulator and virtualizer.
@@ -2454,6 +2967,54 @@ Section: Utilities
 Description: Enhanced, fully compatible version of the Berkeley C shell
 Name: tcsh
 
+Package: io.mc.tiger-vnc
+Version: 1.10.1-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3800
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.fltk, io.mc.gettext, io.mc.gnutls, io.mc.jpeg-turbo, io.mc.xorg-server
+Filename: ./Computate/tiger-vnc_1.10.1-1_iphoneos-arm.deb
+Size: 963442
+MD5sum: 717353e33fa598d4a5090a34782a8732
+SHA1: 13d2f3b769452aae3b97f1b4ae9fd416fb5b499e
+SHA256: 08cf0b1c55622758f85373fcde9b676e09327e0ba3fa8990327556ca1a2b2965
+Section: Utilities
+Description: High-performance, platform-neutral implementation of VNC
+Name: tiger-vnc
+
+Package: io.mc.tiger-vnc
+Version: 1.10.1-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3768
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.fltk, io.mc.gettext, io.mc.gnutls, io.mc.jpeg-turbo, io.mc.xorg-server
+Filename: ./Computate/tiger-vnc_1.10.1-2_iphoneos-arm.deb
+Size: 956220
+MD5sum: 6df38cd138446461a1e98a124cb85e78
+SHA1: cc6462eb279e2699bf5bb1e7c6942bedb69af2c9
+SHA256: ef690408dabbe93dce704fc54a0c42225e4f5dbe9b368ee489f00513f21a1839
+Section: Utilities
+Description: High-performance, platform-neutral implementation of VNC
+Name: tiger-vnc
+
+Package: io.mc.tiger-vnc
+Version: 1.10.1-3
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3768
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.fltk, io.mc.gettext, io.mc.gnutls, io.mc.jpeg-turbo, io.mc.xorg-server
+Filename: ./Computate/tiger-vnc_1.10.1-3_iphoneos-arm.deb
+Size: 957638
+MD5sum: fc7e55c96213e178a47f69b4e1937e11
+SHA1: cc567cf36cfa1fde21d1ad95cf19168b355f8b10
+SHA256: a1eb73734f00bc7a2f0349f234f08d6dffb34fc058e93959b40e0e00b5ab44d2
+Section: Utilities
+Description: High-performance, platform-neutral implementation of VNC
+Name: tiger-vnc
+
 Package: io.mc.tmux
 Version: 2.9a-1
 Architecture: iphoneos-arm
@@ -2518,6 +3079,22 @@ Section: Utilities
 Description: Lightweight BitTorrent client
 Name: transmission-cli
 
+Package: io.mc.twm
+Version: 1.0.10-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 204
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xorg-server
+Filename: ./Computate/twm_1.0.10-1_iphoneos-arm.deb
+Size: 69166
+MD5sum: 1bab399744a1a6b12b037004bf90370f
+SHA1: 211a3ec0cd47889481984ee84c11618fac353de2
+SHA256: c91cc66c002dc74c024e36df6600bc846555fbb0a96e825e74cd3478ad31bacb
+Section: Utilities
+Description: very minimal window manager
+Name: twm
+
 Package: io.mc.unbound
 Version: 1.9.2-2
 Architecture: iphoneos-arm
@@ -2565,6 +3142,21 @@ SHA256: 242448a656d9d501a58942af619e002a900218a3571fde50a2a5e3b17e2c6200
 Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
+
+Package: io.mc.util-macros
+Version: 1.19.2-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 100
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/util-macros_1.19.2-1_iphoneos-arm.deb
+Size: 21468
+MD5sum: 4c48c1261a0e862f07dfcbb0a2ec979b
+SHA1: 61cc809984bb0145295f764b2408bb0d2ad2f415
+SHA256: abb8701de26435013db419b15a14bb19a808a34582509d67832f0894ab9e12d1
+Section: Utilities
+Description: contains the m4 macros used by all of the Xorg packages
+Name: util-macros
 
 Package: io.mc.vde
 Version: 2.3.2-1
@@ -2674,6 +3266,418 @@ SHA256: b300f9f45914f73bd1deb5d226eaa7b9ad82045c5ed5d3ea761f31ab345511b8
 Section: Utilities
 Description: Run Windows applications without a copy of Microsoft Windows
 Name: wine
+
+Package: io.mc.x264
+Version: r2917-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3304
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/x264_r2917-1_iphoneos-arm.deb
+Size: 529664
+MD5sum: 11e61c42569f4ef28c34d7d0ba372039
+SHA1: 21a7eeb6c544d7f4204ab10115a2feb445f7a237
+SHA256: b70c412372a1f1b1beef43da78904caaa1f9e503f86e0f035b3b3c9dd5615cdd
+Section: Utilities
+Description: H.264/AVC encoder
+Name: x264
+
+Package: io.mc.x265
+Version: 3.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 5020
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/x265_3.1.2-1_iphoneos-arm.deb
+Size: 723886
+MD5sum: 5238e9caf808963813fad4a57b75d2a8
+SHA1: be8ae211e3f564c78747dfcd168bf09a0fd6657f
+SHA256: 04e317e1f2cb9c40da810d1997bb9a946611c189054b9730f059ed0b7183a2e3
+Section: Utilities
+Description: H.265/HEVC encoder
+Name: x265
+
+Package: io.mc.xbitmaps
+Version: 1.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 424
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.util-macros
+Filename: ./Computate/xbitmaps_1.1.2-1_iphoneos-arm.deb
+Size: 18426
+MD5sum: 0d5187d0871ae719874992602d04b662
+SHA1: 35313f1487ae5ee89ca03be488994a13e90b861b
+SHA256: d67a072a705bda5d37c533f1e8dc5b9f2ee30eca0e7a28394fdfd5d1476b3298
+Section: Utilities
+Description: contains bitmap images used by multiple X applications
+Name: xbitmaps
+
+Package: io.mc.xcb-proto
+Version: 1.13-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 992
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/xcb-proto_1.13-1_iphoneos-arm.deb
+Size: 102102
+MD5sum: 4ee614167d5d85d35a5db6bbe486b6e6
+SHA1: 7761c388fea0f0b4bfa3946934d9f103214afe89
+SHA256: 3ae5a17a664d5df7d79f66aba8de95a4e20bb09733c8d72b5a262512a4f2687a
+Section: Utilities
+Description: Provides the XML-XCB protocol descriptions that libxcb uses to generate the majority of its code and API
+Name: xcb-proto
+
+Package: io.mc.xcb-util
+Version: 0.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 100
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libxcb
+Filename: ./Computate/xcb-util_0.4.0-1_iphoneos-arm.deb
+Size: 8312
+MD5sum: a8b3c5bca52791cec9ec9750ded205bb
+SHA1: db5a8672cd54198ed6f98628df22c7b139a665ed
+SHA256: 7ebb2026add4272fd00d38b5897f63dda0c81d6798a8e2c4a7453a21fbfa7a2e
+Section: Utilities
+Description: Provides additional extensions to the XCB library
+Name: xcb-util
+
+Package: io.mc.xcb-util-cursor
+Version: 0.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 76
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xcb-util-image, io.mc.xcb-util-renderutil, io.mc.xcb-util
+Filename: ./Computate/xcb-util-cursor_0.1.3-1_iphoneos-arm.deb
+Size: 9862
+MD5sum: fbad00649091d3f1b68ddcbee233f751
+SHA1: d961b9f0dda16957116b08e5031b1714e35b4e79
+SHA256: e75170e931ab8f7f4fa0b921e1d4caf3018cea4b870c1cb9086b89b3454b70c8
+Section: Utilities
+Description: provides a module that implements the XCB cursor library
+Name: xcb-util-cursor
+
+Package: io.mc.xcb-util-image
+Version: 0.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 104
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xcb-util
+Filename: ./Computate/xcb-util-image_0.4.0-1_iphoneos-arm.deb
+Size: 14456
+MD5sum: a9f9dcfde8a9f6f8b9efcd5d1ae74603
+SHA1: ff8fe5c6fb5d3d796efa5b6fefcb5e6208d0dc35
+SHA256: 485aaa2adda4fa6d2b366dc3aeb0902d5ab878c95ab6780003fbe0ebb5670f2e
+Section: Utilities
+Description: Provides additional extensions to the XCB library
+Name: xcb-util-image
+
+Package: io.mc.xcb-util-keysyms
+Version: 0.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 68
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libxcb
+Filename: ./Computate/xcb-util-keysyms_0.4.0-1_iphoneos-arm.deb
+Size: 4538
+MD5sum: ff68851f3cdd1d5df91b3471aafb08f2
+SHA1: 40ba56863d2fcfbdf28bbfcca79277b1078297b9
+SHA256: 0fd4e36844ebbc829836642ad4567235789374671c4fd7a3ff04ba60b6b2ae01
+Section: Utilities
+Description: Contains a library for handling standard X key constants and conversion to/from keycodes
+Name: xcb-util-keysyms
+
+Package: io.mc.xcb-util-renderutil
+Version: 0.3.9-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 76
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libxcb
+Filename: ./Computate/xcb-util-renderutil_0.3.9-1_iphoneos-arm.deb
+Size: 6272
+MD5sum: e8d110b3f035b016ff1636e09e9a3b26
+SHA1: 269086e09f7489c788444815b344d1a3e6c0e588
+SHA256: 17cb7d09b426ddad84b8772eb2c68b2977654e30364b6aa7c68756d263a6acaf
+Section: Utilities
+Description: provides additional extensions to the XCB library
+Name: xcb-util-renderutil
+
+Package: io.mc.xcb-util-wm
+Version: 0.4.1-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 300
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libxcb
+Filename: ./Computate/xcb-util-wm_0.4.1-1_iphoneos-arm.deb
+Size: 27794
+MD5sum: 862ddc3c8e817410624939e8dfd4123e
+SHA1: f8ec4881b3a5c307b07e4d220357fb243d645798
+SHA256: f6c43b68505e6ec4489cfca6607d5a290baabfbbaf19856189849f7058cce9ea
+Section: Utilities
+Description: contains libraries which provide client and window-manager helpers for EWMH and ICCCM
+Name: xcb-util-wm
+
+Package: io.mc.xclock
+Version: 1.0.9-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 88
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg
+Filename: ./Computate/xclock_1.0.9-1_iphoneos-arm.deb
+Size: 19916
+MD5sum: f362e30dfae4985534265c1a5ea3b485
+SHA1: a6b5398669e3a986c09f1b6d56842baf9aca1992
+SHA256: 03d7163cb06f270320a67c88e0a5c333dc0cea283991488ee7b243d1c7a1fd3d
+Section: Utilities
+Description: a simple X11 clock application
+Name: xclock
+
+Package: io.mc.xcursor-themes
+Version: 1.0.6-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 4048
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgApps
+Filename: ./Computate/xcursor-themes_1.0.6-1_iphoneos-arm.deb
+Size: 311204
+MD5sum: 4b00721f8e0aeddeca014214d9fcea4f
+SHA1: 3fff189bd04e074d1c3d7cf273f28b2b60fca343
+SHA256: 89207d7ba9f81fe20990782a89f292f7a9aace11da0b06c0d88cc30aa1751c25
+Section: Utilities
+Description: package contains the redglass and whiteglass animated cursor themes
+Name: xcursor-themes
+
+Package: io.mc.xf86-video-dummy
+Version: 0.3.8-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 64
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xorg-server
+Filename: ./Computate/xf86-video-dummy_0.3.8-1_iphoneos-arm.deb
+Size: 6492
+MD5sum: 78af63a367432cf45008cc1a0b853f09
+SHA1: fa7e4a5434e111dcbfd8bb40983b0568dce6e9a8
+SHA256: b51891dc22d3baebb6caa72d8a5a1953d7e1ca64422152029423b3eebf97bf58
+Section: Utilities
+Description: X server dummy display driver
+Name: Xorg video dummy
+
+Package: io.mc.xinit
+Version: 1.4.1-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 204
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg, io.mc.xorg-server
+Filename: ./Computate/xinit_1.4.1-1_iphoneos-arm.deb
+Size: 18232
+MD5sum: 905969f9fb72afc5c8395b8273ec4062
+SHA1: a0ff67d5084f66d02f7f9a6e9896529e7578f405
+SHA256: 167702e05defcb232327a78c5a038af59447ce0cf532b9d7d6a57865e5e97e9a
+Section: Utilities
+Description: script to start Xserver
+Name: xinit
+
+Package: io.mc.xkeyboard-config
+Version: 2.28-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 3816
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg
+Filename: ./Computate/xkeyboard-config_2.28-1_iphoneos-arm.deb
+Size: 321904
+MD5sum: 04452220af896ee5449054c197fe9315
+SHA1: c8bcb39c170e5a9deea1002dcffe90b8bbdf164d
+SHA256: b74bbe0317e03d89f7cf7896c9eb6246d68f724c681b4a820ad985ac8081c30e
+Section: Utilities
+Description: contains the keyboard configuration database for the X Window System
+Name: xkeyboard-config
+
+Package: io.mc.xorg
+Version: 1.0-mega-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 8596
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.fontconfig, io.mc.libxcb
+Filename: ./Computate/Xorg_1.0-mega-1_iphoneos-arm.deb
+Size: 1456754
+MD5sum: 46f177d2762b51aff8c2bad6437ce5e1
+SHA1: 468ba7fb98bcf3c72cc8c81e310f40b07f4f06b2
+SHA256: 934e9b0b02fce75739f18a0ae0d0adb6819f1fd10d01ce1a89076664434dbfed
+Section: Utilities
+Description: Provides library routines that are used within all X Window applications (LFS 2019-12-11)
+Name: Xorg
+
+Package: io.mc.xorg-server
+Version: 1.20.6-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 7976
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.libepoxy, io.mc.libpng, io.mc.openssl-1.1, io.mc.pixman, io.mc.xkeyboard-config
+Filename: ./Computate/xorg-server_1.20.6-1_iphoneos-arm.deb
+Size: 1406758
+MD5sum: e32ffa5048aadc4a990e65b106219e8f
+SHA1: 202721a03382b8f0b9d7f4b094014c076145928b
+SHA256: c690117d28526bee7c8f040c351ba2ada3e16c78e5b82952ef9d38a57a30ea23
+Section: X_Window
+Description: core of the X Window system
+Name: xorg-server
+
+Package: io.mc.xorg-server
+Version: 1.20.6-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 7976
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.libepoxy, io.mc.libpng, io.mc.openssl-1.1, io.mc.pixman, io.mc.xkeyboard-config
+Filename: ./Computate/xorg-server_1.20.6-2_iphoneos-arm.deb
+Size: 1407122
+MD5sum: 3975d3b4c2fb73950b249507a36a2282
+SHA1: 6428b61944cd192e0abf69a09c06989b66ee9220
+SHA256: 605d55f6964da3adb30235b51a369c6cab7f7a68250e75b448a3f38ae15445ea
+Section: X_Window
+Description: core of the X Window system
+Name: xorg-server
+
+Package: io.mc.xorgapps
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 2736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpng, io.mc.mesa, io.mc.xbitmaps, io.mc.xcb-util
+Filename: ./Computate/XorgApps_1.0-1_iphoneos-arm.deb
+Size: 385144
+MD5sum: c2274c454c9c9ec81d097c47171e5720
+SHA1: c9433ef753e0d3c36a69c35f73e9736ba7e8ff06
+SHA256: 050564dab7add3bfc44288dfd6836b491d2e48207af4a6ef66ced79fffb4f935
+Section: Utilities
+Description: provids the expected applications available in previous X Window implementations.
+Name: Xorg Applications
+
+Package: io.mc.xorgfonts
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 4872
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xcursor-themes
+Filename: ./Computate/XorgFonts_1.0-1_iphoneos-arm.deb
+Size: 2013142
+MD5sum: ebcd28a72339539da7c8d8416404e59b
+SHA1: b9482828a25435153bbb89973236c83128d18ec4
+SHA256: e32bded0edf8213f7107f66fbcfdbe6ca0058a286a34c6fd43dc50cbeefd425d
+Section: Utilities
+Description: provides some scalable fonts and supporting packages for Xorg applications
+Name: Xorg Fonts
+
+Package: io.mc.xorgfonts
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 4872
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xcursor-themes
+Filename: ./Computate/XorgFonts_1.0-2_iphoneos-arm.deb
+Size: 2012810
+MD5sum: fece0ddb84dcb47662a3a7c899ef7785
+SHA1: 97adebaa1c9ad1009166578be22e14a76051025e
+SHA256: 6c58d5685659c313f15e7cc7acf940db0342881ebcf5a705b3cee21c3f71aef8
+Section: Utilities
+Description: provides some scalable fonts and supporting packages for Xorg applications
+Name: Xorg Fonts
+
+Package: io.mc.xorglegacy
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 19428
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.xcursor-themes
+Filename: ./Computate/XorgLegacy_1.0-1_iphoneos-arm.deb
+Size: 13503306
+MD5sum: f609ab06135c025927138afab4362a33
+SHA1: 63778856a57d3c2f756af4ba43a7cfa84f7c3009
+SHA256: fc66768f8a9f9f521bf993072380c1637048a415503c3f6e061e7e5e23110e1a
+Section: Utilities
+Description: includes deprecated fonts for Xorg
+Name: Xorg Legacy Fonts
+
+Package: io.mc.xorglegacy
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 19428
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.xcursor-themes
+Filename: ./Computate/XorgLegacy_1.0-2_iphoneos-arm.deb
+Size: 13503360
+MD5sum: 8d1d6f9efa7cb2b7b8b523f8e396e5e1
+SHA1: c50f4da7e3ad91be6f05ba7408e317f1208985fc
+SHA256: 11de6e673a67f02d1341718a3b7e88acf44d24828896ee56b7743418dbde34a0
+Section: Utilities
+Description: includes deprecated fonts for Xorg
+Name: Xorg Legacy Fonts
+
+Package: io.mc.xorgproto
+Version: 2019.2-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 1692
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.util-macros
+Filename: ./Computate/xorgproto_2019.2-1_iphoneos-arm.deb
+Size: 164408
+MD5sum: 91b22595ac27a6fb907f65908c29d6a4
+SHA1: 0ec3de98f0bf9da4e696ddb5374387547497ad88
+SHA256: 6cbd5e1ad9a7c13b0a67a24ceb24c4ccd521d16f75bc54e43f5fd1715ed4929d
+Section: Development
+Description: xorgproto package provides the header files required to build the X Window system
+Name: xorgproto
+
+Package: io.mc.xterm
+Version: 352-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 852
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgApps, io.mc.fontconfig, io.mc.ncurses, io.mc.pcre2
+Filename: ./Computate/xterm_352-1_iphoneos-arm.deb
+Size: 237844
+MD5sum: f22fd554b366743d733f9b2d6a209d4e
+SHA1: a5555918bbc07a3da00d5ce9d09df4dcf47564bc
+SHA256: 7c7904b4109cc0b241a9f6d449686152ab724c4e449563566e0d36177040f51b
+Section: Utilities
+Description: terminal emulator for the X Window System
+Name: xterm
+
+Package: io.mc.xvid
+Version: 1.3.5-1
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 1108
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/xvid_1.3.5-1_iphoneos-arm.deb
+Size: 199730
+MD5sum: 77471cea58b5a7abeb431611473c0e88
+SHA1: 43618a9f7b4de092273554324169b22a0577b287
+SHA256: 2c23c965ce7ad6942e36db866e3796dcaebd9d1f12e9f279972e3f285e4f3446
+Section: Development
+Description: High-performance, high-quality MPEG-4 video library
+Name: xvid
 
 Package: io.mc.xz
 Version: 5.2.4-1
