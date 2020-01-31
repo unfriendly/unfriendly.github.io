@@ -2759,6 +2759,21 @@ Section: Utilities
 Description: x86 and PowerPC Emulator
 Name: qemu
 
+Package: io.mc.qemu
+Version: 4.2.0-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 352272
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg-turbo, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
+Filename: ./Computate/qemu_4.2.0-2_iphoneos-arm.deb
+Size: 36908818
+MD5sum: c0eeb325572d4eb8b1c147d166f8d925
+SHA1: e3b48e5cde643c43267f19ff6b32eab35bcf5a68
+SHA256: 308689fe38b4905c18ab9cfd7f29939d5e68ed8097a3308d6a6bbcda1b5a78c1
+Section: Utilities
+Description: Generic and open source machine emulator and virtualizer (debug build).
+
 Package: io.mc.readline
 Version: 8.0.0-3
 Architecture: iphoneos-arm
@@ -3564,6 +3579,22 @@ Size: 385144
 MD5sum: c2274c454c9c9ec81d097c47171e5720
 SHA1: c9433ef753e0d3c36a69c35f73e9736ba7e8ff06
 SHA256: 050564dab7add3bfc44288dfd6836b491d2e48207af4a6ef66ced79fffb4f935
+Section: Utilities
+Description: provids the expected applications available in previous X Window implementations.
+Name: Xorg Applications
+
+Package: io.mc.xorgapps
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Installed-Size: 2736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpng, io.mc.mesa, io.mc.xbitmaps, io.mc.xcb-util
+Filename: ./Computate/XorgApps_1.0-2_iphoneos-arm.deb
+Size: 384876
+MD5sum: de78b7f401dbcfdbf0a8397e7ecffca2
+SHA1: 842fd6449cb4476e06d46f8f21db357122c3e203
+SHA256: 4366290a5e8ec223ce14c07fdfbf4bfe4e9133197812bb90099fd496104db138
 Section: Utilities
 Description: provids the expected applications available in previous X Window implementations.
 Name: Xorg Applications
