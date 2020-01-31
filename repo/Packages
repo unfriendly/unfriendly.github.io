@@ -770,6 +770,21 @@ Section: Utilities
 Description: Small SSH server/client for POSIX-based system
 Name: dropbear
 
+Package: io.mc.eggshell
+Version: 3.0.2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: python (>=2.7.8-1)
+Filename: ./Computate/eggshell_3.0.2_iphoneos-arm.deb
+Size: 2705060
+MD5sum: d0dec66a393c94034aa1a9279ec47c4f
+SHA1: 271183078e2dbfbe0346e1ecb48c2972c81ebd5b
+SHA256: 79047b0fe8b93ca519ab9c905162f85880e790e3504048b678ddb79cdc3d96f3
+Section: Utilities
+Description: iOS/macOS/Linux pentest tool
+Name: eggshell
+
 Package: io.mc.ettercap
 Version: 0.8.3-4
 Architecture: iphoneos-arm
@@ -2328,12 +2343,12 @@ Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 53180
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.mc.c-ares, io.mc.nghttp2, io.mc.openssl-1.1
-Filename: ./Computate/node_12.9.0-3_iphoneos-arm.deb
-Size: 8158170
-MD5sum: 551b99d7114372e4ef903448a9a120a0
-SHA1: 3c40256b00c48073f823478e8c5af6caf888832f
-SHA256: 8187fa6f700118bc63ac153e58c733f44ed589c6a1e03369b2f06c6502918ade
+Depends: io.mc.c-ares, io.mc.nghttp2
+Filename: ./Computate/node_12.9.0-3_fix_iphoneos-arm.deb
+Size: 12644724
+MD5sum: E15BE0E9DAE9289F18C7C75B6E4F8D31
+SHA1: 211BD1C405E445EBC07356793253C7568FF374AB
+SHA256: 3339CCCD8ACF24B38C1AEFA3F2E10FAC1D80EDE69115F2EE273AFE844EE70EFB
 Section: Networking
 Description: Platform built on V8 to build network applications
 Name: node
@@ -2586,6 +2601,20 @@ Priority: optional
 Description: Python/Objective-C connection library
 Name: PyObjC
 
+Package: io.mc.pysslfixnew
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Compute <compute@RawTechnique.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Computate/openssl_python_fix_new.deb
+Size: 854220
+MD5sum: 5BB3D39DDDF99381BE7E48ED4CB35197
+SHA1: 382A7FE2765A7A598E2A84786F6173EA17B05F4B
+SHA256: 8F031F6C87B13051BB954BA46DA8E4FA17F201AFF7AEC4BE26F3E66B7045959C
+Section: Utilities
+Description: fix python lib not found
+Name: pysslfixnew
+
 Package: io.mc.python
 Version: 3.7.4-3
 Architecture: iphoneos-arm
@@ -2608,12 +2637,12 @@ Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 55104
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
-Filename: ./Computate/python_3.7.4-4_iphoneos-arm.deb
-Size: 10135482
-MD5sum: 0410e78f75c87bfb802a09a591975f10
-SHA1: 87c25f696045263fc6e32f8c0fcab2532ee68c91
-SHA256: 21318e61b01e47c8543365438c3d2d0c697978416cf473dad3eb30f0abb8efa2
+Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.readline, io.mc.sqlite, io.mc.xz
+Filename: ./Computate/python_3.7.4-4_fix_iphoneos-arm.deb
+Size: 14015728
+MD5sum: DFF3B848F5B0DA5F462CBF667631F2C0
+SHA1: CA151A53E6C48126F60447A8648E616CFF746D15
+SHA256: 960BA7B5AC94D522D8322555588FA42837A11E962EEE4047E129E30B93D581BF
 Section: Utilities
 Description: Interpreted, interactive, object-oriented programming language
 Name: python
@@ -2744,7 +2773,6 @@ SHA1: e3b48e5cde643c43267f19ff6b32eab35bcf5a68
 SHA256: 308689fe38b4905c18ab9cfd7f29939d5e68ed8097a3308d6a6bbcda1b5a78c1
 Section: Utilities
 Description: Generic and open source machine emulator and virtualizer (debug build).
-  Generic and open source machine emulator and virtualizer.
 
 Package: io.mc.readline
 Version: 8.0.0-3
@@ -3703,12 +3731,12 @@ Architecture: iphoneos-arm
 Maintainer: Compute <compute@RawTechnique.com>
 Installed-Size: 676
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: io.mc.jansson, io.mc.libmagic, io.mc.openssl-1.1
-Filename: ./Computate/yara_3.10.0-1_iphoneos-arm.deb
-Size: 144574
-MD5sum: 8a48625185c54580c15ea9535911bca5
-SHA1: 9f72de90d6da2bb0b49c3d7973512f6fe588cdb1
-SHA256: 612a4472c6cfb640ef18491f06ee41d50ba794fac6079f90c56ef20a8ada29b6
+Depends: io.mc.jansson, io.mc.libmagic
+Filename: ./Computate/yara_fixed_3.10.0-1_iphoneos-arm.deb
+Size: 346242
+MD5sum: 97e2682753749c83771b8e640768f91d
+SHA1: 9720edd297059f3f83c6ecb57a2e92549078e755
+SHA256: 05b77355ac8402784d63622e2f3b785745dbf1909018d1379b98ae7eb5d8c41d
 Section: Utilities
 Description: Malware identification and classification tool
 Name: yara
@@ -3728,4 +3756,3 @@ SHA256: 45987368565ba8a5a82753b0e3c62ec81459283c60844b2fe81c3d71e5a95ddd
 Section: Utilities
 Description: UNIX shell (command interpreter)
 Name: zsh
-
