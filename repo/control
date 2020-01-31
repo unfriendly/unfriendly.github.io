@@ -7,8 +7,7 @@ Architecture: iphoneos-arm
 Depends:
 Pre-Depends: dpkg
 Provides:
-Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com> 
+Maintainer: RawTechnique <34170230+compute@RawTechnique.com>
 Homepage:
 Tag:
-Description: Athena Project | Compiled for ARM64.
-
+Description: Computate | Compiled for ARM64.
