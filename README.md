@@ -1,1 +1,4 @@
-Almost entirely MCApollo (I am using your packages to self compile and create a pentesting framework for iOS (I hope you are ok with me using the packages on your repo until I can migrate all the dependencies to my own sources, then finally remove all un-necesarry packages)
+> "okay we get it he knows how to use toolchains wild"
+
+Started before elucubratus was created, this repo was meant to go along with electra.
+Since then, if you want a better repo, use **elucubratus**. 
