@@ -1,9 +1,9 @@
-Origin: MCApollo 
-Label: MCApollo/Homebrew
+Origin: Compute
+Label: Compute/Homebrew
 Suite: stable
-Version: 2.2-Final
+Version: 2.7-Final
 Architectures: iphoneos-arm
 Components: main
-Codename: Athena Project
-Description: Checkout my stuff on elucubratus (Mac C.)
+Codename: Computate
+Description: Pentesting and Random Tools
 
