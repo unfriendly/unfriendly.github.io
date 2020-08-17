@@ -1,9 +1,9 @@
-Origin: Compute
-Label: Compute/Homebrew
+Origin: Unfriendly
+Label: Unfriendly/Homebrew
 Suite: stable
 Version: 2.7-Final
 Architectures: iphoneos-arm
 Components: main
-Codename: Computate
+Codename: Unfriendly
 Description: Pentesting and Random Tools
 
