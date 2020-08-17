@@ -7,7 +7,7 @@ Architecture: iphoneos-arm
 Depends:
 Pre-Depends: dpkg
 Provides:
-Maintainer: RawTechnique <34170230+compute@RawTechnique.com>
+Maintainer: Unfriendly <34170230+note@unfriendly.com>
 Homepage:
 Tag:
-Description: Computate | Compiled for ARM64.
+Description: Unfriendly | Compiled for ARM64.
