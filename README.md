@@ -1,1 +1,1 @@
-Thanks to MCApollo for the help, and making this happen!
+Thanks to MCApollo for the help, in making this happen!
